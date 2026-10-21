@@ -123,11 +123,21 @@ of 24,557 and are research material, not a redistribution of the films.
 
 ## Environment
 
-Python 3.13 was used; see `requirements.txt`. The clean-room scripts need only `numpy`. The model
-components additionally need a CUDA-capable GPU and the `bert-base-TAPE` checkpoint. That
-checkpoint is **not** redistributed with this release; set `HMTINET_BERT_CHECKPOINT` to a local
-copy before training. The reported BERT figures were produced with such a local copy, and
-`results/detectors/bert_v2_results.json` records the model identifier.
+Python 3.13 was used; see `requirements.txt`. The clean-room scripts need only `numpy`.
+
+The model components additionally need a CUDA-capable GPU and a Chinese encoder, and **neither
+checkpoint is redistributed with this release**. Two different encoders appear in the paper and they
+are not interchangeable:
+
+| Role | Encoder | Executed? | Where |
+|---|---|---|---|
+| prototype channel of the specified framework | Chinese RoBERTa-wwm, d = 768 | no | Section 3 |
+| detector comparison actually run | `bert-base-TAPE`, 109.5M parameters | yes | Section 6.5 |
+
+The reported detector figures were produced with a local copy of `bert-base-TAPE`; set
+`HMTINET_BERT_CHECKPOINT` to such a copy before training. `results/detectors/bert_v2_results.json`
+records the identifier. The RoBERTa-wwm encoder belongs to the part of the framework that was
+specified but not executed, so no result depends on it.
 
 ## Citing
 
