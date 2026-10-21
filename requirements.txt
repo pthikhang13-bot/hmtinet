@@ -1,0 +1,16 @@
+# Core
+numpy>=2.0
+scipy>=1.14
+pandas>=2.2
+scikit-learn>=1.5
+
+# Chinese text handling and the BERT baseline
+jieba>=0.42
+torch>=2.6
+transformers>=4.45
+
+# Not needed for verification, needed to re-harvest the outcome proxy
+playwright>=1.47
+
+# Reference verification (optional; requires network)
+urllib3>=2.2

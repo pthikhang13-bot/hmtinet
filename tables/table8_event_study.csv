@@ -1,0 +1,7 @@
+﻿film_zh,film_en,release,granularity,baseline_mean,outcome_mean,ratio,peak_offset_days,notes
+金陵十三钗,The Flowers of War,2011-12-15,daily,7109.77,182182.23,25.6,2,"Query term is the film title; the manuscript's proxy is heritage-site attention. Same pipeline, different estimand."
+一九四二,Back to 1942,2012-11-29,daily,1063.56,28310.2,26.6,2,"Query term is the film title; the manuscript's proxy is heritage-site attention. Same pipeline, different estimand."
+厨子戏子痞子,"The Chef, the Actor, the Scoundrel",2013-03-29,daily,1015.28,78610.71,77.4,7,"Query term is the film title; the manuscript's proxy is heritage-site attention. Same pipeline, different estimand."
+铁道飞虎,Railroad Tigers,2016-12-23,daily,1211.77,30241.91,25.0,2,"Query term is the film title; the manuscript's proxy is heritage-site attention. Same pipeline, different estimand."
+八佰,The Eight Hundred,2020-08-21,daily,1399.4,166698.28,119.1,2,"Query term is the film title; the manuscript's proxy is heritage-site attention. Same pipeline, different estimand."
+铁道英雄,Railway Heroes,2021-11-19,daily,301.14,12055.75,40.0,1,"Query term is the film title; the manuscript's proxy is heritage-site attention. Same pipeline, different estimand."

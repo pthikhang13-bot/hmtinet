@@ -1,0 +1,129 @@
+{
+  "environment": "anaconda python 3.13, sklearn 1.6.1 (no network, no GPU)",
+  "features": "TF-IDF char_wb 2-4 grams (min_df=3) + word 1-2 grams + negation/irrealis/question marker flags",
+  "learner": "per-concept logistic regression, class_weight=balanced, C=4.0",
+  "validation": "leave-one-film-out over 19 films",
+  "cues": 24557,
+  "evaluated_labels": [
+    "Battle of Taierzhuang",
+    "Nanjing Massacre",
+    "Second Sino-Japanese War",
+    "Eighth Route Army",
+    "National Revolutionary Army",
+    "Imperial Japanese Army",
+    "Chinese Communist Party",
+    "Lugou Bridge",
+    "Landmine warfare",
+    "Guerrilla warfare"
+  ],
+  "skipped_labels": {
+    "Marco Polo Bridge Incident": 4,
+    "Battle of Pingxingguan": 2,
+    "New Fourth Army": 1,
+    "KMT": 7,
+    "Yan'an Revolutionary Site": 5,
+    "National humiliation": 1
+  },
+  "per_label": {
+    "Battle of Taierzhuang": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 33,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "positives": 33
+    },
+    "Nanjing Massacre": {
+      "tp": 16,
+      "fp": 1,
+      "fn": 17,
+      "precision": 0.9412,
+      "recall": 0.4848,
+      "f1": 0.64,
+      "positives": 33
+    },
+    "Second Sino-Japanese War": {
+      "tp": 83,
+      "fp": 0,
+      "fn": 19,
+      "precision": 1.0,
+      "recall": 0.8137,
+      "f1": 0.8973,
+      "positives": 102
+    },
+    "Eighth Route Army": {
+      "tp": 59,
+      "fp": 2,
+      "fn": 5,
+      "precision": 0.9672,
+      "recall": 0.9219,
+      "f1": 0.944,
+      "positives": 64
+    },
+    "National Revolutionary Army": {
+      "tp": 32,
+      "fp": 0,
+      "fn": 10,
+      "precision": 1.0,
+      "recall": 0.7619,
+      "f1": 0.8649,
+      "positives": 42
+    },
+    "Imperial Japanese Army": {
+      "tp": 376,
+      "fp": 2,
+      "fn": 23,
+      "precision": 0.9947,
+      "recall": 0.9424,
+      "f1": 0.9678,
+      "positives": 399
+    },
+    "Chinese Communist Party": {
+      "tp": 33,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "positives": 33
+    },
+    "Lugou Bridge": {
+      "tp": 25,
+      "fp": 0,
+      "fn": 3,
+      "precision": 1.0,
+      "recall": 0.8929,
+      "f1": 0.9434,
+      "positives": 28
+    },
+    "Landmine warfare": {
+      "tp": 61,
+      "fp": 0,
+      "fn": 47,
+      "precision": 1.0,
+      "recall": 0.5648,
+      "f1": 0.7219,
+      "positives": 108
+    },
+    "Guerrilla warfare": {
+      "tp": 8,
+      "fp": 1,
+      "fn": 17,
+      "precision": 0.8889,
+      "recall": 0.32,
+      "f1": 0.4706,
+      "positives": 25
+    }
+  },
+  "micro": {
+    "precision": 0.9914,
+    "recall": 0.7993,
+    "f1": 0.8851
+  },
+  "negated_positive_cues": 119,
+  "negated_cues_suppressed": 27,
+  "negated_suppression_rate": 0.2269,
+  "label_source": "lexicon rule (proxy standard, not human annotation)",
+  "caveat": "Trained against the rule's own labels, so the model cannot exceed the rule's ceiling in principle; the measured gain comes from context channels the rule lacks, and every figure is agreement with the rule rather than historical correctness."
+}

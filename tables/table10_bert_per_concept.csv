@@ -1,0 +1,17 @@
+﻿concept,positives,roc_auc,average_precision
+Eighth Route Army,64,0.999,0.526
+Imperial Japanese Army,399,0.978,0.394
+Landmine warfare,108,0.985,0.266
+KMT,7,0.999,0.245
+Second Sino-Japanese War,102,0.778,0.144
+National Revolutionary Army,42,0.993,0.128
+Nanjing Massacre,33,0.959,0.116
+Yan'an Revolutionary Site,5,0.998,0.091
+Lugou Bridge,28,0.618,0.039
+Chinese Communist Party,33,0.657,0.013
+Battle of Pingxingguan,2,0.98,0.003
+Marco Polo Bridge Incident,4,0.63,0.002
+Guerrilla warfare,25,0.471,0.001
+Battle of Taierzhuang,33,0.21,0.001
+National humiliation,1,0.935,0.001
+New Fourth Army,1,0.037,0.0

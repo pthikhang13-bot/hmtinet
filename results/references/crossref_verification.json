@@ -1,0 +1,271 @@
+[
+  {
+    "key": "ref_memory1",
+    "doi": "10.1080/02560046.2025.2530527",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_memory2",
+    "doi": null,
+    "registry": null,
+    "status": "isbn-only",
+    "issues": [
+      "isbn=9780231148900"
+    ]
+  },
+  {
+    "key": "ref_memory3",
+    "doi": null,
+    "registry": null,
+    "status": "isbn-only",
+    "issues": [
+      "isbn=0060908009"
+    ]
+  },
+  {
+    "key": "ref_memory4",
+    "doi": "10.1525/rep.1989.26.1.99p0274v",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_memory5",
+    "doi": "10.1386/ac.10.1.93_1",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_tourism1",
+    "doi": null,
+    "registry": null,
+    "status": "isbn-only",
+    "issues": [
+      "isbn=9780826450647"
+    ]
+  },
+  {
+    "key": "ref_tourism2",
+    "doi": null,
+    "registry": null,
+    "status": "isbn-only",
+    "issues": [
+      "isbn=0582369703"
+    ]
+  },
+  {
+    "key": "ref_tourism3",
+    "doi": "10.1177/0047287507303976",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_tourism4",
+    "doi": "10.1177/146879760100100104",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_tourism5",
+    "doi": "10.1016/j.jdmm.2015.06.004",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_tourism6",
+    "doi": "10.21832/9781845410162",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_cn_tourism1",
+    "doi": "10.1016/j.tourman.2016.03.015",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_cn_tourism2",
+    "doi": "10.1057/s41599-024-04262-0",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_cn_tourism3",
+    "doi": "10.1080/14616688.2024.2337198",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_cn_tourism4",
+    "doi": "10.1016/S0160-7383(98)00045-0",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_kb1",
+    "doi": "10.1609/aimag.v24i3.1720",
+    "registry": "doi.org->ojs.aaai.org",
+    "status": "unverified",
+    "issues": [
+      "Crossref 404; landing page gave no metadata"
+    ]
+  },
+  {
+    "key": "ref_kb2",
+    "doi": "10.2200/S00452ED1V01Y201210WBE003",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_kb3",
+    "doi": "10.1609/aaai.v31i1.11164",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_kg1",
+    "doi": "10.1145/2629489",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_kg2",
+    "doi": "10.1007/s10462-024-11102-9",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_ml1",
+    "doi": "10.1145/2939672.2939785",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_ml2",
+    "doi": "10.18653/v1/N19-1423",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_ml3",
+    "doi": "10.48550/arXiv.1705.07874",
+    "registry": "datacite",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_ml4",
+    "doi": "10.1038/s42256-019-0048-x",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_nlp1",
+    "doi": "10.1109/TASLP.2021.3124365",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_shot1",
+    "doi": "10.48550/arXiv.2008.04838",
+    "registry": "datacite",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_det1",
+    "doi": "10.1007/978-3-031-72970-6_3",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_scene1",
+    "doi": "10.1109/TPAMI.2017.2723009",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_ner1",
+    "doi": "10.18653/v1/2024.findings-acl.111",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_mem_arch",
+    "doi": "10.48550/arXiv.2606.14667",
+    "registry": "datacite",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_attn1",
+    "doi": "10.48550/arXiv.1706.03762",
+    "registry": "datacite",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_lasso1",
+    "doi": "10.1111/j.2517-6161.1996.tb02080.x",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_power1",
+    "doi": "10.3758/BF03193146",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_fdr1",
+    "doi": "10.1111/j.2517-6161.1995.tb02031.x",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_kappa1",
+    "doi": "10.1177/001316446002000104",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_kendall1",
+    "doi": "10.2307/2332226",
+    "registry": "crossref",
+    "status": "ok",
+    "issues": []
+  },
+  {
+    "key": "ref_adamw1",
+    "doi": "10.48550/arXiv.1711.05101",
+    "registry": "datacite",
+    "status": "ok",
+    "issues": []
+  }
+]

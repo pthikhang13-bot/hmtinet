@@ -1,0 +1,111 @@
+{
+  "methodological_note": "Both annotators are models, not humans. This kappa measures model-model agreement and must be reported as such; it does not establish human inter-coder reliability.",
+  "rows": 968,
+  "codex_rows_matched": 968,
+  "annotator1_nonempty": 700,
+  "annotator2_nonempty": 708,
+  "cue_level_identical": 817,
+  "cue_level_identical_fraction": 0.844,
+  "both_empty": 212,
+  "per_concept": {
+    "Battle of Pingxingguan": {
+      "a1_pos": 0,
+      "a2_pos": 2,
+      "po": 0.9979,
+      "kappa": 0.0
+    },
+    "Battle of Taierzhuang": {
+      "a1_pos": 7,
+      "a2_pos": 31,
+      "po": 0.9752,
+      "kappa": 0.3609
+    },
+    "Chinese Communist Party": {
+      "a1_pos": 32,
+      "a2_pos": 34,
+      "po": 0.9979,
+      "kappa": 0.9686
+    },
+    "Eighth Route Army": {
+      "a1_pos": 64,
+      "a2_pos": 64,
+      "po": 1.0,
+      "kappa": 1.0
+    },
+    "Guerrilla warfare": {
+      "a1_pos": 10,
+      "a2_pos": 6,
+      "po": 0.9959,
+      "kappa": 0.748
+    },
+    "Imperial Japanese Army": {
+      "a1_pos": 399,
+      "a2_pos": 397,
+      "po": 0.9855,
+      "kappa": 0.9701
+    },
+    "KMT": {
+      "a1_pos": 7,
+      "a2_pos": 7,
+      "po": 1.0,
+      "kappa": 1.0
+    },
+    "Landmine warfare": {
+      "a1_pos": 28,
+      "a2_pos": 46,
+      "po": 0.9628,
+      "kappa": 0.4954
+    },
+    "Lugou Bridge": {
+      "a1_pos": 28,
+      "a2_pos": 18,
+      "po": 0.9897,
+      "kappa": 0.7776
+    },
+    "Marco Polo Bridge Incident": {
+      "a1_pos": 8,
+      "a2_pos": 11,
+      "po": 0.9928,
+      "kappa": 0.628
+    },
+    "Nanjing Massacre": {
+      "a1_pos": 5,
+      "a2_pos": 7,
+      "po": 0.9979,
+      "kappa": 0.8323
+    },
+    "National Revolutionary Army": {
+      "a1_pos": 42,
+      "a2_pos": 17,
+      "po": 0.968,
+      "kappa": 0.4611
+    },
+    "National humiliation": {
+      "a1_pos": 1,
+      "a2_pos": 1,
+      "po": 1.0,
+      "kappa": 1.0
+    },
+    "New Fourth Army": {
+      "a1_pos": 1,
+      "a2_pos": 1,
+      "po": 1.0,
+      "kappa": 1.0
+    },
+    "Second Sino-Japanese War": {
+      "a1_pos": 101,
+      "a2_pos": 119,
+      "po": 0.9773,
+      "kappa": 0.8873
+    },
+    "Yan'an Revolutionary Site": {
+      "a1_pos": 1,
+      "a2_pos": 5,
+      "po": 0.9959,
+      "kappa": 0.3322
+    }
+  },
+  "mean_per_concept_kappa": 0.7163,
+  "any_vs_none_kappa": 0.7292,
+  "disagreements": 151
+}

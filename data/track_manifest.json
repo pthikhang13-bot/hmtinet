@@ -1,0 +1,192 @@
+[
+  {
+    "film_zh": "一九四二",
+    "film_en": "Back to 1942",
+    "track_relative_path": "一九四二\\一九四二.ass",
+    "extension": ".ass",
+    "size_bytes": 259896,
+    "sha256": "307a4bdf9ed4c0f57b4c785b0eaf2d6cf73c61666c8925e3a6a6749a162d4d4d",
+    "cues": 2111,
+    "duration_min": 141.5
+  },
+  {
+    "film_zh": "七七事变",
+    "film_en": "The July 7th Incident",
+    "track_relative_path": "七七事变\\七七事变.1995.（长影）.srt",
+    "extension": ".srt",
+    "size_bytes": 103889,
+    "sha256": "b957491f16ad0ac883c76d7c70bd6b114e0b0360f36bf9562b4c57ab450b2344",
+    "cues": 1680,
+    "duration_min": 114.2
+  },
+  {
+    "film_zh": "东京审判",
+    "film_en": "The Tokyo Trial",
+    "track_relative_path": "东京审判\\东京审判.srt",
+    "extension": ".srt",
+    "size_bytes": 110084,
+    "sha256": "211aad31b1623c96653240e12157f5597292995efbe3231663eb17586004fe3c",
+    "cues": 1808,
+    "duration_min": 134.2
+  },
+  {
+    "film_zh": "八佰",
+    "film_en": "The Eight Hundred",
+    "track_relative_path": "八佰\\八佰.ass",
+    "extension": ".ass",
+    "size_bytes": 228722,
+    "sha256": "b4e0494371a6fadc6b9eb540c3030cc560fcb7808988b10a20d6ed582694c1dc",
+    "cues": 2366,
+    "duration_min": 140.7
+  },
+  {
+    "film_zh": "南京大屠杀",
+    "film_en": "Black Sun: The Nanking Massacre",
+    "track_relative_path": "南京大屠杀\\南京大屠杀.srt",
+    "extension": ".srt",
+    "size_bytes": 63888,
+    "sha256": "9f24753b9aa5b34d1ab3135223aba7719d529ccf6b5b41a71f95fcb34e48c3df",
+    "cues": 930,
+    "duration_min": 84.2
+  },
+  {
+    "film_zh": "南京！南京！",
+    "film_en": "City of Life and Death",
+    "track_relative_path": "南京！南京！\\City.of.Life.and.Death.2009.BluRay.720p.x264.AC3.CMCT.简体\\City.of.Life.and.Death.2009.BluRay.720p.x264.AC3.CMCT.简体.ass",
+    "extension": ".ass",
+    "size_bytes": 61342,
+    "sha256": "73fef28de828205d8b54d6d2bc453138a9dd84d31ceb6ef3caa757ff414ce5ec",
+    "cues": 825,
+    "duration_min": 131.6
+  },
+  {
+    "film_zh": "厨子戏子痞子",
+    "film_en": "The Chef, the Actor, the Scoundrel",
+    "track_relative_path": "厨子戏子痞子\\厨子戏子痞子.srt",
+    "extension": ".srt",
+    "size_bytes": 129471,
+    "sha256": "fc5f20bdb47e3b3c0dc2e092d28e973fd12e33b86c0852250f47cd52a823494e",
+    "cues": 1635,
+    "duration_min": 107.3
+  },
+  {
+    "film_zh": "地道战",
+    "film_en": "Tunnel Warfare",
+    "track_relative_path": "地道战\\地道战.Di.Dao.Zhan.1965.HDTV.720p.x264.srt",
+    "extension": ".srt",
+    "size_bytes": 51969,
+    "sha256": "4759e212ca0cfa3854a9a90d7d0add75e965c7fe81111ef572ce6a208390d6f2",
+    "cues": 960,
+    "duration_min": 95.2
+  },
+  {
+    "film_zh": "地雷战",
+    "film_en": "Mine Warfare",
+    "track_relative_path": "地雷战\\地雷战.chs.srt",
+    "extension": ".srt",
+    "size_bytes": 33995,
+    "sha256": "e915d22e62b4a78b833f3ac5be44b5dc4e97a872bb24b0ceeb07aef319292fd2",
+    "cues": 612,
+    "duration_min": 71.7
+  },
+  {
+    "film_zh": "小兵张嘎",
+    "film_en": "Zhang Ga the Soldier Boy",
+    "track_relative_path": "小兵张嘎\\小兵张嘎.srt",
+    "extension": ".srt",
+    "size_bytes": 57833,
+    "sha256": "1d9e8a9080b2ee57cab625345650b8006dfc82c9261fe05b0e96f2b0468f4f5d",
+    "cues": 836,
+    "duration_min": 100.9
+  },
+  {
+    "film_zh": "平原作战",
+    "film_en": "Fighting on the Plains",
+    "track_relative_path": "平原作战\\平原作战.chs.srt",
+    "extension": ".srt",
+    "size_bytes": 110619,
+    "sha256": "c20226fc860dd6b0325a7ea00751cde5758ac624919e006260e79ab189b13861",
+    "cues": 2203,
+    "duration_min": 125.1
+  },
+  {
+    "film_zh": "战争子午线",
+    "film_en": "Meridian of War",
+    "track_relative_path": "战争子午线\\战争子午线.ass",
+    "extension": ".ass",
+    "size_bytes": 51009,
+    "sha256": "a8f5d5b8035ac410c6b481444cd627590d7e2f2d5c6944bb479ae6ee6f00d627",
+    "cues": 661,
+    "duration_min": 91.3
+  },
+  {
+    "film_zh": "白求恩大夫",
+    "film_en": "Dr. Bethune",
+    "track_relative_path": "白求恩大夫\\白求恩大夫.chs.srt",
+    "extension": ".srt",
+    "size_bytes": 80622,
+    "sha256": "4ae1d7270d01f3c2a44acc3ed8c0b95af08446c67a897f375c278dd8ce06eeca",
+    "cues": 1254,
+    "duration_min": 107.3
+  },
+  {
+    "film_zh": "血战台儿庄",
+    "film_en": "The Bloody Battle of Taierzhuang",
+    "track_relative_path": "血战台儿庄\\血战台儿庄.The.Bloody.Battle.Of.Taierzhuang.1986.CCTV6HD.HDTV.1080P.H264.AAC.srt",
+    "extension": ".srt",
+    "size_bytes": 65285,
+    "sha256": "0df3ae2630fa600c9682ccf9ba0d0122c1a9b9be4ebb3aad03b0da61350779c0",
+    "cues": 1034,
+    "duration_min": 127.9
+  },
+  {
+    "film_zh": "野火春风斗古城",
+    "film_en": "Struggles in an Ancient City",
+    "track_relative_path": "野火春风斗古城\\野火春风斗古城.chs.srt",
+    "extension": ".srt",
+    "size_bytes": 78616,
+    "sha256": "24fd5a2dfbbdc84fe1fccf1ba8679f1012787df89109d7a4f1e56919607dd94f",
+    "cues": 1331,
+    "duration_min": 98.4
+  },
+  {
+    "film_zh": "金陵十三钗",
+    "film_en": "The Flowers of War",
+    "track_relative_path": "金陵十三钗\\金陵十三钗.cht.srt",
+    "extension": ".srt",
+    "size_bytes": 91636,
+    "sha256": "989bb263e3d1cdb5e8ef36433ed53e618916280c4fe3e47fb87cd5794be6274c",
+    "cues": 1741,
+    "duration_min": 139.6
+  },
+  {
+    "film_zh": "铁道英雄",
+    "film_en": "Railway Heroes",
+    "track_relative_path": "铁道英雄\\铁道英雄.srt",
+    "extension": ".srt",
+    "size_bytes": 52768,
+    "sha256": "178db899037db67d940b069425e05b8b300ba9f14b2efdae215ba4e430c36dab",
+    "cues": 916,
+    "duration_min": 114.7
+  },
+  {
+    "film_zh": "铁道飞虎",
+    "film_en": "Railroad Tigers",
+    "track_relative_path": "铁道飞虎\\铁道飞虎.chs.srt",
+    "extension": ".srt",
+    "size_bytes": 77574,
+    "sha256": "e31f025561e6232a5e093cea8c9c6d2c5f96e6f20e9ba461fab3b5ff45f36939",
+    "cues": 1227,
+    "duration_min": 123.4
+  },
+  {
+    "film_zh": "风声",
+    "film_en": "The Message",
+    "track_relative_path": "风声\\风声.srt",
+    "extension": ".srt",
+    "size_bytes": 67872,
+    "sha256": "0a4c9a9f88e207891221caabebe259ee650c1f44258a1d88177418086b55a357",
+    "cues": 427,
+    "duration_min": 49.8
+  }
+]

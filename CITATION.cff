@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this code or the derived artefacts, please cite the paper."
+title: "HMTI-Net: Grounded Historical Memory Traceability toward Cultural Tourism Impact Analysis of Anti-Japanese War Films"
+authors:
+  - family-names: Zhang
+    given-names: Xuan
+    affiliation: "School of Digital Communication, Guangzhou Huashang College, Guangzhou 511300, China"
+  - family-names: Feng
+    given-names: Yunpeng
+    affiliation: "School of Digital Communication, Guangzhou Huashang College, Guangzhou 511300, China"
+type: software
+license: MIT
+version: 1.0.0
+date-released: 2026-10-21

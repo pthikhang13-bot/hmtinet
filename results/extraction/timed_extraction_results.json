@@ -1,0 +1,410 @@
+{
+  "note": "Time-aware extraction over the harvested subtitle corpus. Lexicon channel stands in for the prototype encoder; all other steps follow the specification.",
+  "half_life_min": 20.0,
+  "rho_per_min": 0.03466,
+  "n_in_domain": 19,
+  "total_cues": 24557,
+  "total_minutes": 2099.0,
+  "films": [
+    {
+      "film": "一九四二",
+      "status": "ok",
+      "track": "一九四二\\一九四二.ass",
+      "ext": ".ass",
+      "cues": 2111,
+      "duration_min": 141.5,
+      "ungated_concepts": 4,
+      "gated_concepts": 4,
+      "retained_concepts": 4,
+      "retention_rate": 1.0,
+      "intensity": {
+        "Second Sino-Japanese War": 0.003079,
+        "Imperial Japanese Army": 0.001658,
+        "National Revolutionary Army": 0.001421,
+        "KMT": 0.000474
+      },
+      "H_final": 0.000366
+    },
+    {
+      "film": "七七事变",
+      "status": "ok",
+      "track": "七七事变\\七七事变.1995.（长影）.srt",
+      "ext": ".srt",
+      "cues": 1680,
+      "duration_min": 114.2,
+      "ungated_concepts": 7,
+      "gated_concepts": 6,
+      "retained_concepts": 4,
+      "retention_rate": 0.667,
+      "intensity": {
+        "Imperial Japanese Army": 0.015179,
+        "Second Sino-Japanese War": 0.008333,
+        "Lugou Bridge": 0.005952,
+        "National Revolutionary Army": 0.001786
+      },
+      "H_final": 0.000894
+    },
+    {
+      "film": "万家灯火",
+      "status": "out of domain (excluded)",
+      "cues": 0
+    },
+    {
+      "film": "上甘岭",
+      "status": "out of domain (excluded)",
+      "cues": 0
+    },
+    {
+      "film": "东京审判",
+      "status": "ok",
+      "track": "东京审判\\东京审判.srt",
+      "ext": ".srt",
+      "cues": 1808,
+      "duration_min": 134.2,
+      "ungated_concepts": 8,
+      "gated_concepts": 8,
+      "retained_concepts": 7,
+      "retention_rate": 0.875,
+      "intensity": {
+        "Imperial Japanese Army": 0.004978,
+        "Chinese Communist Party": 0.001659,
+        "National Revolutionary Army": 0.001106,
+        "Nanjing Massacre": 0.001106,
+        "Lugou Bridge": 0.00083,
+        "Second Sino-Japanese War": 0.00083,
+        "KMT": 0.000553
+      },
+      "H_final": 0.002643
+    },
+    {
+      "film": "丽人行",
+      "status": "out of domain (excluded)",
+      "cues": 0
+    },
+    {
+      "film": "八佰",
+      "status": "ok",
+      "track": "八佰\\八佰.ass",
+      "ext": ".ass",
+      "cues": 2366,
+      "duration_min": 140.7,
+      "ungated_concepts": 6,
+      "gated_concepts": 5,
+      "retained_concepts": 4,
+      "retention_rate": 0.8,
+      "intensity": {
+        "National Revolutionary Army": 0.004015,
+        "Imperial Japanese Army": 0.001902,
+        "Nanjing Massacre": 0.000845,
+        "Second Sino-Japanese War": 0.000423
+      },
+      "H_final": 0.000157
+    },
+    {
+      "film": "八千里路云和月",
+      "status": "out of domain (excluded)",
+      "cues": 0
+    },
+    {
+      "film": "十字街头",
+      "status": "out of domain (excluded)",
+      "cues": 0
+    },
+    {
+      "film": "南京大屠杀",
+      "status": "ok",
+      "track": "南京大屠杀\\南京大屠杀.srt",
+      "ext": ".srt",
+      "cues": 930,
+      "duration_min": 84.2,
+      "ungated_concepts": 6,
+      "gated_concepts": 6,
+      "retained_concepts": 2,
+      "retention_rate": 0.333,
+      "intensity": {
+        "Imperial Japanese Army": 0.007527,
+        "Nanjing Massacre": 0.004301
+      },
+      "H_final": 0.000708
+    },
+    {
+      "film": "南京！南京！",
+      "status": "ok",
+      "track": "南京！南京！\\City.of.Life.and.Death.2009.BluRay.720p.x264.AC3.CMCT.简体\\City.of.Life.and.Death.2009.BluRay.720p.x264.AC3.CMCT.简体.ass",
+      "ext": ".ass",
+      "cues": 825,
+      "duration_min": 131.6,
+      "ungated_concepts": 4,
+      "gated_concepts": 4,
+      "retained_concepts": 3,
+      "retention_rate": 0.75,
+      "intensity": {
+        "Imperial Japanese Army": 0.004848,
+        "Nanjing Massacre": 0.003636,
+        "National Revolutionary Army": 0.001818
+      },
+      "H_final": 0.000128
+    },
+    {
+      "film": "厨子戏子痞子",
+      "status": "ok",
+      "track": "厨子戏子痞子\\厨子戏子痞子.srt",
+      "ext": ".srt",
+      "cues": 1635,
+      "duration_min": 107.3,
+      "ungated_concepts": 3,
+      "gated_concepts": 2,
+      "retained_concepts": 1,
+      "retention_rate": 0.5,
+      "intensity": {
+        "Imperial Japanese Army": 0.001835
+      },
+      "H_final": 5.5e-05
+    },
+    {
+      "film": "国歌",
+      "status": "out of domain (excluded)",
+      "cues": 0
+    },
+    {
+      "film": "地道战",
+      "status": "ok",
+      "track": "地道战\\地道战.Di.Dao.Zhan.1965.HDTV.720p.x264.srt",
+      "ext": ".srt",
+      "cues": 960,
+      "duration_min": 95.2,
+      "ungated_concepts": 7,
+      "gated_concepts": 5,
+      "retained_concepts": 3,
+      "retention_rate": 0.6,
+      "intensity": {
+        "Imperial Japanese Army": 0.022917,
+        "Second Sino-Japanese War": 0.004167,
+        "Eighth Route Army": 0.003125
+      },
+      "H_final": 0.001745
+    },
+    {
+      "film": "地雷战",
+      "status": "ok",
+      "track": "地雷战\\地雷战.chs.srt",
+      "ext": ".srt",
+      "cues": 612,
+      "duration_min": 71.7,
+      "ungated_concepts": 5,
+      "gated_concepts": 4,
+      "retained_concepts": 4,
+      "retention_rate": 1.0,
+      "intensity": {
+        "Imperial Japanese Army": 0.037582,
+        "Second Sino-Japanese War": 0.004085,
+        "Eighth Route Army": 0.003268,
+        "Chinese Communist Party": 0.002451
+      },
+      "H_final": 0.004284
+    },
+    {
+      "film": "小兵张嘎",
+      "status": "ok",
+      "track": "小兵张嘎\\小兵张嘎.srt",
+      "ext": ".srt",
+      "cues": 836,
+      "duration_min": 100.9,
+      "ungated_concepts": 3,
+      "gated_concepts": 3,
+      "retained_concepts": 3,
+      "retention_rate": 1.0,
+      "intensity": {
+        "Imperial Japanese Army": 0.008971,
+        "Eighth Route Army": 0.006579,
+        "Chinese Communist Party": 0.001794
+      },
+      "H_final": 0.001152
+    },
+    {
+      "film": "小城之春",
+      "status": "out of domain (excluded)",
+      "cues": 0
+    },
+    {
+      "film": "平原作战",
+      "status": "ok",
+      "track": "平原作战\\平原作战.chs.srt",
+      "ext": ".srt",
+      "cues": 2203,
+      "duration_min": 125.1,
+      "ungated_concepts": 7,
+      "gated_concepts": 5,
+      "retained_concepts": 4,
+      "retention_rate": 0.8,
+      "intensity": {
+        "Imperial Japanese Army": 0.007717,
+        "Second Sino-Japanese War": 0.003631,
+        "Eighth Route Army": 0.002951,
+        "Chinese Communist Party": 0.000908
+      },
+      "H_final": 0.000318
+    },
+    {
+      "film": "战争子午线",
+      "status": "ok",
+      "track": "战争子午线\\战争子午线.ass",
+      "ext": ".ass",
+      "cues": 661,
+      "duration_min": 91.3,
+      "ungated_concepts": 4,
+      "gated_concepts": 3,
+      "retained_concepts": 3,
+      "retention_rate": 1.0,
+      "intensity": {
+        "Imperial Japanese Army": 0.012859,
+        "Eighth Route Army": 0.005295,
+        "Second Sino-Japanese War": 0.004539
+      },
+      "H_final": 0.00104
+    },
+    {
+      "film": "报童",
+      "status": "out of domain (excluded)",
+      "cues": 0
+    },
+    {
+      "film": "白求恩大夫",
+      "status": "ok",
+      "track": "白求恩大夫\\白求恩大夫.chs.srt",
+      "ext": ".srt",
+      "cues": 1254,
+      "duration_min": 107.3,
+      "ungated_concepts": 8,
+      "gated_concepts": 7,
+      "retained_concepts": 5,
+      "retention_rate": 0.714,
+      "intensity": {
+        "Eighth Route Army": 0.004386,
+        "Second Sino-Japanese War": 0.001595,
+        "Chinese Communist Party": 0.001196,
+        "Yan'an Revolutionary Site": 0.001196,
+        "Lugou Bridge": 0.000797
+      },
+      "H_final": 0.000337
+    },
+    {
+      "film": "英雄儿女",
+      "status": "out of domain (excluded)",
+      "cues": 0
+    },
+    {
+      "film": "血战台儿庄",
+      "status": "ok",
+      "track": "血战台儿庄\\血战台儿庄.The.Bloody.Battle.Of.Taierzhuang.1986.CCTV6HD.HDTV.1080P.H264.AAC.srt",
+      "ext": ".srt",
+      "cues": 1034,
+      "duration_min": 127.9,
+      "ungated_concepts": 8,
+      "gated_concepts": 8,
+      "retained_concepts": 5,
+      "retention_rate": 0.625,
+      "intensity": {
+        "Imperial Japanese Army": 0.035783,
+        "Battle of Taierzhuang": 0.015957,
+        "Second Sino-Japanese War": 0.009188,
+        "National Revolutionary Army": 0.001451,
+        "Battle of Pingxingguan": 0.000967
+      },
+      "H_final": 0.001166
+    },
+    {
+      "film": "野火春风斗古城",
+      "status": "ok",
+      "track": "野火春风斗古城\\野火春风斗古城.chs.srt",
+      "ext": ".srt",
+      "cues": 1331,
+      "duration_min": 98.4,
+      "ungated_concepts": 6,
+      "gated_concepts": 5,
+      "retained_concepts": 3,
+      "retention_rate": 0.6,
+      "intensity": {
+        "Imperial Japanese Army": 0.003381,
+        "Chinese Communist Party": 0.003005,
+        "Eighth Route Army": 0.001503
+      },
+      "H_final": 0.00072
+    },
+    {
+      "film": "金陵十三钗",
+      "status": "ok",
+      "track": "金陵十三钗\\金陵十三钗.cht.srt",
+      "ext": ".srt",
+      "cues": 1741,
+      "duration_min": 139.6,
+      "ungated_concepts": 2,
+      "gated_concepts": 2,
+      "retained_concepts": 2,
+      "retention_rate": 1.0,
+      "intensity": {
+        "Nanjing Massacre": 0.003446,
+        "Imperial Japanese Army": 0.002585
+      },
+      "H_final": 9.3e-05
+    },
+    {
+      "film": "铁道英雄",
+      "status": "ok",
+      "track": "铁道英雄\\铁道英雄.srt",
+      "ext": ".srt",
+      "cues": 916,
+      "duration_min": 114.7,
+      "ungated_concepts": 2,
+      "gated_concepts": 2,
+      "retained_concepts": 2,
+      "retention_rate": 1.0,
+      "intensity": {
+        "Imperial Japanese Army": 0.002729,
+        "Chinese Communist Party": 0.001638
+      },
+      "H_final": 0.000549
+    },
+    {
+      "film": "铁道飞虎",
+      "status": "ok",
+      "track": "铁道飞虎\\铁道飞虎.chs.srt",
+      "ext": ".srt",
+      "cues": 1227,
+      "duration_min": 123.4,
+      "ungated_concepts": 2,
+      "gated_concepts": 2,
+      "retained_concepts": 2,
+      "retention_rate": 1.0,
+      "intensity": {
+        "Imperial Japanese Army": 0.015485,
+        "Eighth Route Army": 0.003667
+      },
+      "H_final": 0.000575
+    },
+    {
+      "film": "集结号",
+      "status": "out of domain (excluded)",
+      "cues": 0
+    },
+    {
+      "film": "风声",
+      "status": "ok",
+      "track": "风声\\风声.srt",
+      "ext": ".srt",
+      "cues": 427,
+      "duration_min": 49.8,
+      "ungated_concepts": 1,
+      "gated_concepts": 0,
+      "retained_concepts": 0,
+      "retention_rate": 0.0,
+      "intensity": {},
+      "H_final": 0.0
+    },
+    {
+      "film": "马路天使",
+      "status": "out of domain (excluded)",
+      "cues": 0
+    }
+  ]
+}

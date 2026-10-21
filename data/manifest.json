@@ -1,0 +1,53 @@
+{
+  "n_cues": 24557,
+  "n_films": 19,
+  "labels": [
+    "Marco Polo Bridge Incident",
+    "Battle of Pingxingguan",
+    "Battle of Taierzhuang",
+    "Nanjing Massacre",
+    "Second Sino-Japanese War",
+    "Eighth Route Army",
+    "New Fourth Army",
+    "National Revolutionary Army",
+    "Imperial Japanese Army",
+    "Chinese Communist Party",
+    "KMT",
+    "Yan'an Revolutionary Site",
+    "Lugou Bridge",
+    "Landmine warfare",
+    "Guerrilla warfare",
+    "National humiliation"
+  ],
+  "labels_dropped_no_positive": [
+    "Hundred Regiments Offensive",
+    "Nanjing Massacre Memorial Hall",
+    "Museum of the War of Chinese People's Resistance",
+    "Taierzhuang Battle Memorial",
+    "Pingxingguan Memorial",
+    "Red star insignia",
+    "Rising sun flag",
+    "Nationalist flag"
+  ],
+  "label_positive_counts": {
+    "Marco Polo Bridge Incident": 4,
+    "Battle of Pingxingguan": 2,
+    "Battle of Taierzhuang": 33,
+    "Nanjing Massacre": 33,
+    "Second Sino-Japanese War": 102,
+    "Eighth Route Army": 64,
+    "New Fourth Army": 1,
+    "National Revolutionary Army": 42,
+    "Imperial Japanese Army": 399,
+    "Chinese Communist Party": 33,
+    "KMT": 7,
+    "Yan'an Revolutionary Site": 5,
+    "Lugou Bridge": 28,
+    "Landmine warfare": 108,
+    "Guerrilla warfare": 25,
+    "National humiliation": 1
+  },
+  "split": "leave-one-film-out over 19 films",
+  "label_source": "lexicon channel (rule-based proxy standard; not human annotation)",
+  "note": "Cue-level split is never used; films are the unit of separation."
+}

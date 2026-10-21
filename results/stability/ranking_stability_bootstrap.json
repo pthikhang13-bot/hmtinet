@@ -1,0 +1,32 @@
+{
+  "method": "film-clustered nonparametric bootstrap over the 19 films; intensity is the length-normalised cue share under the executed rule (gate = dedicated Wikidata entity, recurrence >= 2 cues in the film); the top-5 set is compared for exact equality; Kendall tau-b is computed against the full-sample ordering of the gated concept pool",
+  "n_films": 19,
+  "n_bootstrap": 4000,
+  "seed": 20261020,
+  "concepts_considered": [
+    "Marco Polo Bridge Incident",
+    "Battle of Pingxingguan",
+    "Battle of Taierzhuang",
+    "Nanjing Massacre",
+    "Second Sino-Japanese War",
+    "Eighth Route Army",
+    "New Fourth Army",
+    "National Revolutionary Army",
+    "Imperial Japanese Army",
+    "Chinese Communist Party",
+    "KMT",
+    "Yan'an Revolutionary Site",
+    "Lugou Bridge"
+  ],
+  "observed_top5": [
+    "Battle of Taierzhuang",
+    "Nanjing Massacre",
+    "Second Sino-Japanese War",
+    "Eighth Route Army",
+    "Imperial Japanese Army"
+  ],
+  "exact_top5_recovery_rate": 0.1825,
+  "mean_kendall_tau": 0.764724358974359,
+  "min_kendall_tau": 0.4358974358974359,
+  "note": "Values recomputed with the final length-normalised intensity definition. They supersede those reported in earlier drafts, where the ranking was computed from a replay whose pair accounting has since been corrected."
+}

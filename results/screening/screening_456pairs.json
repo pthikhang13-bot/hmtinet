@@ -1,0 +1,41 @@
+{
+  "grid": {
+    "n_films": 19,
+    "n_concepts": 24,
+    "n_pairs": 456
+  },
+  "reference_rule": "concept present in film when lexicon matches in >= 2 distinct cues",
+  "ungated_rule": "concept present when lexicon matches in >= 1 cue",
+  "gated_rule": "concept passes the Wikidata resolvability gate AND matches in >= 2 cues",
+  "gate_definition": "a concept passes if its ontology entry has a dedicated Wikidata entity; the eight entries marked with a dash in Table 7 are blocked",
+  "blocked_concepts": [
+    "Guerrilla warfare",
+    "Landmine warfare",
+    "National humiliation",
+    "Nationalist flag",
+    "Pingxingguan Memorial",
+    "Red star insignia",
+    "Rising sun flag",
+    "Taierzhuang Battle Memorial"
+  ],
+  "ungated": {
+    "tp": 69,
+    "fp": 24,
+    "fn": 0,
+    "tn": 363,
+    "precision": 0.7419,
+    "recall": 1.0,
+    "f1": 0.8519
+  },
+  "gated": {
+    "tp": 61,
+    "fp": 0,
+    "fn": 8,
+    "tn": 387,
+    "precision": 1.0,
+    "recall": 0.8841,
+    "f1": 0.9385
+  },
+  "note": "Supersedes the 190-pair / ten-concept computation stored in detector_comparison.json and detector_comparison_v2.json; those artefacts cover a concept subset and should not be compared against the 456-pair figures printed in the manuscript.",
+  "unit_note": "Precision and recall are computed over pairs. The eight concepts that never fire contribute only true negatives, so precision and recall are unchanged whether they are included in the denominator or not."
+}

@@ -1,0 +1,5703 @@
+{
+  "model": "bert-base-TAPE (local), fine-tuned",
+  "device": "cuda",
+  "folds": {
+    "一九四二": {
+      "test_positive_labels": [
+        "Second Sino-Japanese War",
+        "National Revolutionary Army",
+        "Imperial Japanese Army",
+        "KMT"
+      ],
+      "test_zero_positive_labels_not_evaluable": [
+        "Marco Polo Bridge Incident",
+        "Battle of Pingxingguan",
+        "Battle of Taierzhuang",
+        "Nanjing Massacre",
+        "Eighth Route Army",
+        "New Fourth Army",
+        "Chinese Communist Party",
+        "Yan'an Revolutionary Site",
+        "Lugou Bridge",
+        "Landmine warfare",
+        "Guerrilla warfare",
+        "National humiliation"
+      ],
+      "train_zero_positive_labels_unlearnable": [],
+      "calibration": {
+        "Marco Polo Bridge Incident": {
+          "threshold": 0.16867777705192566,
+          "inner_oof_f1": 0.0041841004184100415,
+          "inner_oof_positives": 4,
+          "positive_training_films": 4
+        },
+        "Battle of Pingxingguan": {
+          "threshold": 0.07458185404539108,
+          "inner_oof_f1": 0.003352891869237217,
+          "inner_oof_positives": 2,
+          "positive_training_films": 1
+        },
+        "Battle of Taierzhuang": {
+          "threshold": 0.00850285217165947,
+          "inner_oof_f1": 0.002956459415875291,
+          "inner_oof_positives": 33,
+          "positive_training_films": 1
+        },
+        "Nanjing Massacre": {
+          "threshold": 0.946532130241394,
+          "inner_oof_f1": 0.33070866141732286,
+          "inner_oof_positives": 33,
+          "positive_training_films": 5
+        },
+        "Second Sino-Japanese War": {
+          "threshold": 0.9774797558784485,
+          "inner_oof_f1": 0.20118343195266272,
+          "inner_oof_positives": 89,
+          "positive_training_films": 11
+        },
+        "Eighth Route Army": {
+          "threshold": 0.9895163178443909,
+          "inner_oof_f1": 0.5911949685534591,
+          "inner_oof_positives": 64,
+          "positive_training_films": 8
+        },
+        "New Fourth Army": {
+          "threshold": 0.01580381765961647,
+          "inner_oof_f1": 0.000427807486631016,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        },
+        "National Revolutionary Army": {
+          "threshold": 0.9006426334381104,
+          "inner_oof_f1": 0.17252396166134185,
+          "inner_oof_positives": 36,
+          "positive_training_films": 6
+        },
+        "Imperial Japanese Army": {
+          "threshold": 0.9400830268859863,
+          "inner_oof_f1": 0.3869011522134627,
+          "inner_oof_positives": 392,
+          "positive_training_films": 17
+        },
+        "Chinese Communist Party": {
+          "threshold": 0.8577362298965454,
+          "inner_oof_f1": 0.030927835051546393,
+          "inner_oof_positives": 33,
+          "positive_training_films": 10
+        },
+        "KMT": {
+          "threshold": 0.8138867020606995,
+          "inner_oof_f1": 0.21621621621621623,
+          "inner_oof_positives": 5,
+          "positive_training_films": 4
+        },
+        "Yan'an Revolutionary Site": {
+          "threshold": 0.25766345858573914,
+          "inner_oof_f1": 0.03488372093023256,
+          "inner_oof_positives": 5,
+          "positive_training_films": 3
+        },
+        "Lugou Bridge": {
+          "threshold": 0.3329286575317383,
+          "inner_oof_f1": 0.00904977375565611,
+          "inner_oof_positives": 28,
+          "positive_training_films": 6
+        },
+        "Landmine warfare": {
+          "threshold": 0.45163148641586304,
+          "inner_oof_f1": 0.40332640332640335,
+          "inner_oof_positives": 108,
+          "positive_training_films": 8
+        },
+        "Guerrilla warfare": {
+          "threshold": 0.009350050240755081,
+          "inner_oof_f1": 0.0022594785123593473,
+          "inner_oof_positives": 25,
+          "positive_training_films": 3
+        },
+        "National humiliation": {
+          "threshold": 0.012266791425645351,
+          "inner_oof_f1": 0.00012646221941195067,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        }
+      },
+      "per_label": {
+        "Marco Polo Bridge Incident": {
+          "n": 2111,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Pingxingguan": {
+          "n": 2111,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Taierzhuang": {
+          "n": 2111,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Nanjing Massacre": {
+          "n": 2111,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Second Sino-Japanese War": {
+          "n": 2111,
+          "positives": 13,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.13608328291832708,
+          "roc_auc": 0.8621764317665175
+        },
+        "Eighth Route Army": {
+          "n": 2111,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "New Fourth Army": {
+          "n": 2111,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National Revolutionary Army": {
+          "n": 2111,
+          "positives": 6,
+          "precision": 0.2857142857142857,
+          "recall": 1.0,
+          "f1": 0.4444444444444445,
+          "average_precision": 0.34664224664224663,
+          "roc_auc": 0.9970704671417261
+        },
+        "Imperial Japanese Army": {
+          "n": 2111,
+          "positives": 7,
+          "precision": 0.5714285714285714,
+          "recall": 0.5714285714285714,
+          "f1": 0.5714285714285714,
+          "average_precision": 0.5908095162425371,
+          "roc_auc": 0.9942286800651821
+        },
+        "Chinese Communist Party": {
+          "n": 2111,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "KMT": {
+          "n": 2111,
+          "positives": 2,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "average_precision": 1.0,
+          "roc_auc": 1.0
+        },
+        "Yan'an Revolutionary Site": {
+          "n": 2111,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Lugou Bridge": {
+          "n": 2111,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Landmine warfare": {
+          "n": 2111,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Guerrilla warfare": {
+          "n": 2111,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National humiliation": {
+          "n": 2111,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        }
+      }
+    },
+    "七七事变": {
+      "test_positive_labels": [
+        "Marco Polo Bridge Incident",
+        "Second Sino-Japanese War",
+        "National Revolutionary Army",
+        "Imperial Japanese Army",
+        "Chinese Communist Party",
+        "Lugou Bridge",
+        "National humiliation"
+      ],
+      "test_zero_positive_labels_not_evaluable": [
+        "Battle of Pingxingguan",
+        "Battle of Taierzhuang",
+        "Nanjing Massacre",
+        "Eighth Route Army",
+        "New Fourth Army",
+        "KMT",
+        "Yan'an Revolutionary Site",
+        "Landmine warfare",
+        "Guerrilla warfare"
+      ],
+      "train_zero_positive_labels_unlearnable": [
+        "National humiliation"
+      ],
+      "calibration": {
+        "Marco Polo Bridge Incident": {
+          "threshold": 0.3838850259780884,
+          "inner_oof_f1": 0.028985507246376812,
+          "inner_oof_positives": 3,
+          "positive_training_films": 3
+        },
+        "Battle of Pingxingguan": {
+          "threshold": 0.08547578006982803,
+          "inner_oof_f1": 0.0026936026936026937,
+          "inner_oof_positives": 2,
+          "positive_training_films": 1
+        },
+        "Battle of Taierzhuang": {
+          "threshold": 0.04727644473314285,
+          "inner_oof_f1": 0.003232062055591467,
+          "inner_oof_positives": 33,
+          "positive_training_films": 1
+        },
+        "Nanjing Massacre": {
+          "threshold": 0.9362202286720276,
+          "inner_oof_f1": 0.28378378378378377,
+          "inner_oof_positives": 33,
+          "positive_training_films": 5
+        },
+        "Second Sino-Japanese War": {
+          "threshold": 0.9609081745147705,
+          "inner_oof_f1": 0.22137404580152673,
+          "inner_oof_positives": 74,
+          "positive_training_films": 11
+        },
+        "Eighth Route Army": {
+          "threshold": 0.9867603778839111,
+          "inner_oof_f1": 0.5425531914893617,
+          "inner_oof_positives": 64,
+          "positive_training_films": 8
+        },
+        "New Fourth Army": {
+          "threshold": 0.009865177795290947,
+          "inner_oof_f1": 9.132420091324201e-05,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        },
+        "National Revolutionary Army": {
+          "threshold": 0.7763245701789856,
+          "inner_oof_f1": 0.1016949152542373,
+          "inner_oof_positives": 36,
+          "positive_training_films": 6
+        },
+        "Imperial Japanese Army": {
+          "threshold": 0.987331211566925,
+          "inner_oof_f1": 0.39443155452436196,
+          "inner_oof_positives": 348,
+          "positive_training_films": 17
+        },
+        "Chinese Communist Party": {
+          "threshold": 0.9304702281951904,
+          "inner_oof_f1": 0.09090909090909091,
+          "inner_oof_positives": 32,
+          "positive_training_films": 9
+        },
+        "KMT": {
+          "threshold": 0.8821449875831604,
+          "inner_oof_f1": 0.25,
+          "inner_oof_positives": 7,
+          "positive_training_films": 5
+        },
+        "Yan'an Revolutionary Site": {
+          "threshold": 0.8205797672271729,
+          "inner_oof_f1": 0.08333333333333333,
+          "inner_oof_positives": 5,
+          "positive_training_films": 3
+        },
+        "Lugou Bridge": {
+          "threshold": 0.45202311873435974,
+          "inner_oof_f1": 0.00847457627118644,
+          "inner_oof_positives": 8,
+          "positive_training_films": 5
+        },
+        "Landmine warfare": {
+          "threshold": 0.9825363159179688,
+          "inner_oof_f1": 0.5337423312883436,
+          "inner_oof_positives": 108,
+          "positive_training_films": 8
+        },
+        "Guerrilla warfare": {
+          "threshold": 0.03199128434062004,
+          "inner_oof_f1": 0.002740378887167878,
+          "inner_oof_positives": 25,
+          "positive_training_films": 3
+        },
+        "National humiliation": {
+          "threshold": 0.5,
+          "inner_oof_f1": 0.0,
+          "inner_oof_positives": 0,
+          "positive_training_films": 0
+        }
+      },
+      "per_label": {
+        "Marco Polo Bridge Incident": {
+          "n": 1680,
+          "positives": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.001639344262295082,
+          "roc_auc": 0.6372840976771887
+        },
+        "Battle of Pingxingguan": {
+          "n": 1680,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Taierzhuang": {
+          "n": 1680,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Nanjing Massacre": {
+          "n": 1680,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Second Sino-Japanese War": {
+          "n": 1680,
+          "positives": 28,
+          "precision": 0.2727272727272727,
+          "recall": 0.32142857142857145,
+          "f1": 0.2950819672131148,
+          "average_precision": 0.29302180939242045,
+          "roc_auc": 0.7945996195088205
+        },
+        "Eighth Route Army": {
+          "n": 1680,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "New Fourth Army": {
+          "n": 1680,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National Revolutionary Army": {
+          "n": 1680,
+          "positives": 6,
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222222222222222,
+          "average_precision": 0.19586320191158899,
+          "roc_auc": 0.9909398645957785
+        },
+        "Imperial Japanese Army": {
+          "n": 1680,
+          "positives": 51,
+          "precision": 0.7317073170731707,
+          "recall": 0.5882352941176471,
+          "f1": 0.6521739130434783,
+          "average_precision": 0.622343643661072,
+          "roc_auc": 0.9884326965899926
+        },
+        "Chinese Communist Party": {
+          "n": 1680,
+          "positives": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.037037037037037035,
+          "roc_auc": 0.984514592019059
+        },
+        "KMT": {
+          "n": 1680,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Yan'an Revolutionary Site": {
+          "n": 1680,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Lugou Bridge": {
+          "n": 1680,
+          "positives": 20,
+          "precision": 0.13333333333333333,
+          "recall": 0.1,
+          "f1": 0.1142857142857143,
+          "average_precision": 0.07162312714646213,
+          "roc_auc": 0.6785090361445782
+        },
+        "Landmine warfare": {
+          "n": 1680,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Guerrilla warfare": {
+          "n": 1680,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National humiliation": {
+          "n": 1680,
+          "positives": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.00684931506849315,
+          "roc_auc": 0.9136390708755211
+        }
+      }
+    },
+    "东京审判": {
+      "test_positive_labels": [
+        "Nanjing Massacre",
+        "Second Sino-Japanese War",
+        "National Revolutionary Army",
+        "Imperial Japanese Army",
+        "Chinese Communist Party",
+        "KMT",
+        "Yan'an Revolutionary Site",
+        "Lugou Bridge"
+      ],
+      "test_zero_positive_labels_not_evaluable": [
+        "Marco Polo Bridge Incident",
+        "Battle of Pingxingguan",
+        "Battle of Taierzhuang",
+        "Eighth Route Army",
+        "New Fourth Army",
+        "Landmine warfare",
+        "Guerrilla warfare",
+        "National humiliation"
+      ],
+      "train_zero_positive_labels_unlearnable": [],
+      "calibration": {
+        "Marco Polo Bridge Incident": {
+          "threshold": 0.14768362045288086,
+          "inner_oof_f1": 0.004310344827586207,
+          "inner_oof_positives": 4,
+          "positive_training_films": 4
+        },
+        "Battle of Pingxingguan": {
+          "threshold": 0.08436363190412521,
+          "inner_oof_f1": 0.0036133694670280035,
+          "inner_oof_positives": 2,
+          "positive_training_films": 1
+        },
+        "Battle of Taierzhuang": {
+          "threshold": 0.007463323883712292,
+          "inner_oof_f1": 0.002902119426611556,
+          "inner_oof_positives": 33,
+          "positive_training_films": 1
+        },
+        "Nanjing Massacre": {
+          "threshold": 0.7682427167892456,
+          "inner_oof_f1": 0.2807017543859649,
+          "inner_oof_positives": 29,
+          "positive_training_films": 4
+        },
+        "Second Sino-Japanese War": {
+          "threshold": 0.7727972269058228,
+          "inner_oof_f1": 0.13168724279835392,
+          "inner_oof_positives": 99,
+          "positive_training_films": 11
+        },
+        "Eighth Route Army": {
+          "threshold": 0.9893710613250732,
+          "inner_oof_f1": 0.5766871165644172,
+          "inner_oof_positives": 64,
+          "positive_training_films": 8
+        },
+        "New Fourth Army": {
+          "threshold": 0.010886866599321365,
+          "inner_oof_f1": 9.728099615740066e-05,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        },
+        "National Revolutionary Army": {
+          "threshold": 0.9510999321937561,
+          "inner_oof_f1": 0.20666666666666667,
+          "inner_oof_positives": 38,
+          "positive_training_films": 6
+        },
+        "Imperial Japanese Army": {
+          "threshold": 0.9325529932975769,
+          "inner_oof_f1": 0.44969615124915596,
+          "inner_oof_positives": 381,
+          "positive_training_films": 17
+        },
+        "Chinese Communist Party": {
+          "threshold": 0.3267991542816162,
+          "inner_oof_f1": 0.03389830508474576,
+          "inner_oof_positives": 27,
+          "positive_training_films": 9
+        },
+        "KMT": {
+          "threshold": 0.8758349418640137,
+          "inner_oof_f1": 0.03225806451612903,
+          "inner_oof_positives": 5,
+          "positive_training_films": 4
+        },
+        "Yan'an Revolutionary Site": {
+          "threshold": 0.09666585177183151,
+          "inner_oof_f1": 0.004287245444801715,
+          "inner_oof_positives": 4,
+          "positive_training_films": 2
+        },
+        "Lugou Bridge": {
+          "threshold": 0.24717731773853302,
+          "inner_oof_f1": 0.00404040404040404,
+          "inner_oof_positives": 25,
+          "positive_training_films": 5
+        },
+        "Landmine warfare": {
+          "threshold": 0.9872341156005859,
+          "inner_oof_f1": 0.5304659498207885,
+          "inner_oof_positives": 108,
+          "positive_training_films": 8
+        },
+        "Guerrilla warfare": {
+          "threshold": 0.11486998945474625,
+          "inner_oof_f1": 0.005718370264474625,
+          "inner_oof_positives": 25,
+          "positive_training_films": 3
+        },
+        "National humiliation": {
+          "threshold": 0.06889323890209198,
+          "inner_oof_f1": 0.0022371364653243847,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        }
+      },
+      "per_label": {
+        "Marco Polo Bridge Incident": {
+          "n": 1808,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Pingxingguan": {
+          "n": 1808,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Taierzhuang": {
+          "n": 1808,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Nanjing Massacre": {
+          "n": 1808,
+          "positives": 4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.008784498497127527,
+          "roc_auc": 0.84769955654102
+        },
+        "Second Sino-Japanese War": {
+          "n": 1808,
+          "positives": 3,
+          "precision": 0.02247191011235955,
+          "recall": 0.6666666666666666,
+          "f1": 0.043478260869565216,
+          "average_precision": 0.12589047195013356,
+          "roc_auc": 0.7922437673130194
+        },
+        "Eighth Route Army": {
+          "n": 1808,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "New Fourth Army": {
+          "n": 1808,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National Revolutionary Army": {
+          "n": 1808,
+          "positives": 4,
+          "precision": 0.039473684210526314,
+          "recall": 0.75,
+          "f1": 0.075,
+          "average_precision": 0.11387523379181357,
+          "roc_auc": 0.9733924611973392
+        },
+        "Imperial Japanese Army": {
+          "n": 1808,
+          "positives": 18,
+          "precision": 0.16326530612244897,
+          "recall": 0.8888888888888888,
+          "f1": 0.27586206896551724,
+          "average_precision": 0.3435439003912231,
+          "roc_auc": 0.9762569832402235
+        },
+        "Chinese Communist Party": {
+          "n": 1808,
+          "positives": 6,
+          "precision": 0.006944444444444444,
+          "recall": 0.16666666666666666,
+          "f1": 0.013333333333333332,
+          "average_precision": 0.00905858976651036,
+          "roc_auc": 0.5208102108768036
+        },
+        "KMT": {
+          "n": 1808,
+          "positives": 2,
+          "precision": 0.2,
+          "recall": 0.5,
+          "f1": 0.28571428571428575,
+          "average_precision": 0.18382352941176472,
+          "roc_auc": 0.9950166112956811
+        },
+        "Yan'an Revolutionary Site": {
+          "n": 1808,
+          "positives": 1,
+          "precision": 0.021739130434782608,
+          "recall": 1.0,
+          "f1": 0.042553191489361694,
+          "average_precision": 0.25,
+          "roc_auc": 0.9983397897066962
+        },
+        "Lugou Bridge": {
+          "n": 1808,
+          "positives": 3,
+          "precision": 0.005390835579514825,
+          "recall": 0.6666666666666666,
+          "f1": 0.010695187165775402,
+          "average_precision": 0.33976174077191906,
+          "roc_auc": 0.8749769159741458
+        },
+        "Landmine warfare": {
+          "n": 1808,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Guerrilla warfare": {
+          "n": 1808,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National humiliation": {
+          "n": 1808,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        }
+      }
+    },
+    "八佰": {
+      "test_positive_labels": [
+        "Nanjing Massacre",
+        "Second Sino-Japanese War",
+        "National Revolutionary Army",
+        "Imperial Japanese Army",
+        "KMT",
+        "Landmine warfare"
+      ],
+      "test_zero_positive_labels_not_evaluable": [
+        "Marco Polo Bridge Incident",
+        "Battle of Pingxingguan",
+        "Battle of Taierzhuang",
+        "Eighth Route Army",
+        "New Fourth Army",
+        "Chinese Communist Party",
+        "Yan'an Revolutionary Site",
+        "Lugou Bridge",
+        "Guerrilla warfare",
+        "National humiliation"
+      ],
+      "train_zero_positive_labels_unlearnable": [],
+      "calibration": {
+        "Marco Polo Bridge Incident": {
+          "threshold": 0.1989641934633255,
+          "inner_oof_f1": 0.004576659038901602,
+          "inner_oof_positives": 4,
+          "positive_training_films": 4
+        },
+        "Battle of Pingxingguan": {
+          "threshold": 0.08222873508930206,
+          "inner_oof_f1": 0.003418803418803419,
+          "inner_oof_positives": 2,
+          "positive_training_films": 1
+        },
+        "Battle of Taierzhuang": {
+          "threshold": 0.010712483897805214,
+          "inner_oof_f1": 0.0030552726599388947,
+          "inner_oof_positives": 33,
+          "positive_training_films": 1
+        },
+        "Nanjing Massacre": {
+          "threshold": 0.9796565771102905,
+          "inner_oof_f1": 0.23423423423423423,
+          "inner_oof_positives": 29,
+          "positive_training_films": 4
+        },
+        "Second Sino-Japanese War": {
+          "threshold": 0.9662136435508728,
+          "inner_oof_f1": 0.2733333333333333,
+          "inner_oof_positives": 100,
+          "positive_training_films": 11
+        },
+        "Eighth Route Army": {
+          "threshold": 0.9875649809837341,
+          "inner_oof_f1": 0.5988700564971752,
+          "inner_oof_positives": 64,
+          "positive_training_films": 8
+        },
+        "New Fourth Army": {
+          "threshold": 0.027167141437530518,
+          "inner_oof_f1": 0.0006337135614702154,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        },
+        "National Revolutionary Army": {
+          "threshold": 0.7938244342803955,
+          "inner_oof_f1": 0.1476510067114094,
+          "inner_oof_positives": 23,
+          "positive_training_films": 6
+        },
+        "Imperial Japanese Army": {
+          "threshold": 0.9843801259994507,
+          "inner_oof_f1": 0.43383947939262474,
+          "inner_oof_positives": 390,
+          "positive_training_films": 17
+        },
+        "Chinese Communist Party": {
+          "threshold": 0.8347360491752625,
+          "inner_oof_f1": 0.07142857142857142,
+          "inner_oof_positives": 33,
+          "positive_training_films": 10
+        },
+        "KMT": {
+          "threshold": 0.8197630047798157,
+          "inner_oof_f1": 0.25,
+          "inner_oof_positives": 6,
+          "positive_training_films": 4
+        },
+        "Yan'an Revolutionary Site": {
+          "threshold": 0.7302491664886475,
+          "inner_oof_f1": 0.06896551724137931,
+          "inner_oof_positives": 5,
+          "positive_training_films": 3
+        },
+        "Lugou Bridge": {
+          "threshold": 0.6197245121002197,
+          "inner_oof_f1": 0.006122448979591836,
+          "inner_oof_positives": 28,
+          "positive_training_films": 6
+        },
+        "Landmine warfare": {
+          "threshold": 0.989535391330719,
+          "inner_oof_f1": 0.5757575757575758,
+          "inner_oof_positives": 104,
+          "positive_training_films": 7
+        },
+        "Guerrilla warfare": {
+          "threshold": 0.02307899482548237,
+          "inner_oof_f1": 0.0024315518163692067,
+          "inner_oof_positives": 25,
+          "positive_training_films": 3
+        },
+        "National humiliation": {
+          "threshold": 0.035378292202949524,
+          "inner_oof_f1": 0.0008892841262783459,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        }
+      },
+      "per_label": {
+        "Marco Polo Bridge Incident": {
+          "n": 2366,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Pingxingguan": {
+          "n": 2366,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Taierzhuang": {
+          "n": 2366,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Nanjing Massacre": {
+          "n": 2366,
+          "positives": 4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.3964602925809822,
+          "roc_auc": 0.8302286198137172
+        },
+        "Second Sino-Japanese War": {
+          "n": 2366,
+          "positives": 2,
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "average_precision": 0.5007698229407236,
+          "roc_auc": 0.7256768189509306
+        },
+        "Eighth Route Army": {
+          "n": 2366,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "New Fourth Army": {
+          "n": 2366,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National Revolutionary Army": {
+          "n": 2366,
+          "positives": 19,
+          "precision": 0.5806451612903226,
+          "recall": 0.9473684210526315,
+          "f1": 0.72,
+          "average_precision": 0.80587662896957,
+          "roc_auc": 0.9982284215011324
+        },
+        "Imperial Japanese Army": {
+          "n": 2366,
+          "positives": 9,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.3601742149492817,
+          "roc_auc": 0.9900532692217037
+        },
+        "Chinese Communist Party": {
+          "n": 2366,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "KMT": {
+          "n": 2366,
+          "positives": 1,
+          "precision": 0.3333333333333333,
+          "recall": 1.0,
+          "f1": 0.5,
+          "average_precision": 0.3333333333333333,
+          "roc_auc": 0.999154334038055
+        },
+        "Yan'an Revolutionary Site": {
+          "n": 2366,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Lugou Bridge": {
+          "n": 2366,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Landmine warfare": {
+          "n": 2366,
+          "positives": 4,
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1": 0.4,
+          "average_precision": 0.5,
+          "roc_auc": 0.9974597798475868
+        },
+        "Guerrilla warfare": {
+          "n": 2366,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National humiliation": {
+          "n": 2366,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        }
+      }
+    },
+    "南京大屠杀": {
+      "test_positive_labels": [
+        "Marco Polo Bridge Incident",
+        "Nanjing Massacre",
+        "Second Sino-Japanese War",
+        "National Revolutionary Army",
+        "Imperial Japanese Army",
+        "Lugou Bridge"
+      ],
+      "test_zero_positive_labels_not_evaluable": [
+        "Battle of Pingxingguan",
+        "Battle of Taierzhuang",
+        "Eighth Route Army",
+        "New Fourth Army",
+        "Chinese Communist Party",
+        "KMT",
+        "Yan'an Revolutionary Site",
+        "Landmine warfare",
+        "Guerrilla warfare",
+        "National humiliation"
+      ],
+      "train_zero_positive_labels_unlearnable": [],
+      "calibration": {
+        "Marco Polo Bridge Incident": {
+          "threshold": 0.07440918684005737,
+          "inner_oof_f1": 0.0010887316276537834,
+          "inner_oof_positives": 3,
+          "positive_training_films": 3
+        },
+        "Battle of Pingxingguan": {
+          "threshold": 0.09458079934120178,
+          "inner_oof_f1": 0.0041841004184100415,
+          "inner_oof_positives": 2,
+          "positive_training_films": 1
+        },
+        "Battle of Taierzhuang": {
+          "threshold": 0.007483477238565683,
+          "inner_oof_f1": 0.0029107981220657278,
+          "inner_oof_positives": 33,
+          "positive_training_films": 1
+        },
+        "Nanjing Massacre": {
+          "threshold": 0.8545394539833069,
+          "inner_oof_f1": 0.27692307692307694,
+          "inner_oof_positives": 26,
+          "positive_training_films": 4
+        },
+        "Second Sino-Japanese War": {
+          "threshold": 0.9694046974182129,
+          "inner_oof_f1": 0.2782608695652174,
+          "inner_oof_positives": 101,
+          "positive_training_films": 11
+        },
+        "Eighth Route Army": {
+          "threshold": 0.9833720326423645,
+          "inner_oof_f1": 0.5988700564971752,
+          "inner_oof_positives": 64,
+          "positive_training_films": 8
+        },
+        "New Fourth Army": {
+          "threshold": 0.010871626436710358,
+          "inner_oof_f1": 0.00011991126566340908,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        },
+        "National Revolutionary Army": {
+          "threshold": 0.4927637577056885,
+          "inner_oof_f1": 0.15723270440251572,
+          "inner_oof_positives": 41,
+          "positive_training_films": 6
+        },
+        "Imperial Japanese Army": {
+          "threshold": 0.9503605365753174,
+          "inner_oof_f1": 0.42463958060288337,
+          "inner_oof_positives": 385,
+          "positive_training_films": 17
+        },
+        "Chinese Communist Party": {
+          "threshold": 0.7657431960105896,
+          "inner_oof_f1": 0.09929078014184398,
+          "inner_oof_positives": 33,
+          "positive_training_films": 10
+        },
+        "KMT": {
+          "threshold": 0.6348788142204285,
+          "inner_oof_f1": 0.14285714285714285,
+          "inner_oof_positives": 7,
+          "positive_training_films": 5
+        },
+        "Yan'an Revolutionary Site": {
+          "threshold": 0.9540548920631409,
+          "inner_oof_f1": 0.14285714285714285,
+          "inner_oof_positives": 5,
+          "positive_training_films": 3
+        },
+        "Lugou Bridge": {
+          "threshold": 0.04214891046285629,
+          "inner_oof_f1": 0.002476907993188503,
+          "inner_oof_positives": 27,
+          "positive_training_films": 5
+        },
+        "Landmine warfare": {
+          "threshold": 0.9735862612724304,
+          "inner_oof_f1": 0.4759493670886076,
+          "inner_oof_positives": 108,
+          "positive_training_films": 8
+        },
+        "Guerrilla warfare": {
+          "threshold": 0.19006787240505219,
+          "inner_oof_f1": 0.003963011889035667,
+          "inner_oof_positives": 25,
+          "positive_training_films": 3
+        },
+        "National humiliation": {
+          "threshold": 0.016267577186226845,
+          "inner_oof_f1": 0.0005047955577990914,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        }
+      },
+      "per_label": {
+        "Marco Polo Bridge Incident": {
+          "n": 930,
+          "positives": 1,
+          "precision": 0.009900990099009901,
+          "recall": 1.0,
+          "f1": 0.0196078431372549,
+          "average_precision": 0.01818181818181818,
+          "roc_auc": 0.9418729817007535
+        },
+        "Battle of Pingxingguan": {
+          "n": 930,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Taierzhuang": {
+          "n": 930,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Nanjing Massacre": {
+          "n": 930,
+          "positives": 7,
+          "precision": 0.1935483870967742,
+          "recall": 0.8571428571428571,
+          "f1": 0.3157894736842105,
+          "average_precision": 0.3053231196270246,
+          "roc_auc": 0.9869989165763814
+        },
+        "Second Sino-Japanese War": {
+          "n": 930,
+          "positives": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.08333333333333333,
+          "roc_auc": 0.9881593110871906
+        },
+        "Eighth Route Army": {
+          "n": 930,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "New Fourth Army": {
+          "n": 930,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National Revolutionary Army": {
+          "n": 930,
+          "positives": 1,
+          "precision": 0.02,
+          "recall": 1.0,
+          "f1": 0.0392156862745098,
+          "average_precision": 0.038461538461538464,
+          "roc_auc": 0.9730893433799785
+        },
+        "Imperial Japanese Army": {
+          "n": 930,
+          "positives": 14,
+          "precision": 0.29545454545454547,
+          "recall": 0.9285714285714286,
+          "f1": 0.4482758620689656,
+          "average_precision": 0.4356964218047962,
+          "roc_auc": 0.9860417966313164
+        },
+        "Chinese Communist Party": {
+          "n": 930,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "KMT": {
+          "n": 930,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Yan'an Revolutionary Site": {
+          "n": 930,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Lugou Bridge": {
+          "n": 930,
+          "positives": 1,
+          "precision": 0.0030864197530864196,
+          "recall": 1.0,
+          "f1": 0.006153846153846154,
+          "average_precision": 0.014492753623188406,
+          "roc_auc": 0.9268030139935415
+        },
+        "Landmine warfare": {
+          "n": 930,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Guerrilla warfare": {
+          "n": 930,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National humiliation": {
+          "n": 930,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        }
+      }
+    },
+    "南京！南京！": {
+      "test_positive_labels": [
+        "Nanjing Massacre",
+        "National Revolutionary Army",
+        "Imperial Japanese Army",
+        "Lugou Bridge"
+      ],
+      "test_zero_positive_labels_not_evaluable": [
+        "Marco Polo Bridge Incident",
+        "Battle of Pingxingguan",
+        "Battle of Taierzhuang",
+        "Second Sino-Japanese War",
+        "Eighth Route Army",
+        "New Fourth Army",
+        "Chinese Communist Party",
+        "KMT",
+        "Yan'an Revolutionary Site",
+        "Landmine warfare",
+        "Guerrilla warfare",
+        "National humiliation"
+      ],
+      "train_zero_positive_labels_unlearnable": [],
+      "calibration": {
+        "Marco Polo Bridge Incident": {
+          "threshold": 0.03054940328001976,
+          "inner_oof_f1": 0.0010460251046025104,
+          "inner_oof_positives": 4,
+          "positive_training_films": 4
+        },
+        "Battle of Pingxingguan": {
+          "threshold": 0.05121821537613869,
+          "inner_oof_f1": 0.0028208744710860366,
+          "inner_oof_positives": 2,
+          "positive_training_films": 1
+        },
+        "Battle of Taierzhuang": {
+          "threshold": 0.006200871895998716,
+          "inner_oof_f1": 0.0027817584084970075,
+          "inner_oof_positives": 33,
+          "positive_training_films": 1
+        },
+        "Nanjing Massacre": {
+          "threshold": 0.9552180171012878,
+          "inner_oof_f1": 0.2903225806451613,
+          "inner_oof_positives": 27,
+          "positive_training_films": 4
+        },
+        "Second Sino-Japanese War": {
+          "threshold": 0.7991884350776672,
+          "inner_oof_f1": 0.16139240506329114,
+          "inner_oof_positives": 102,
+          "positive_training_films": 12
+        },
+        "Eighth Route Army": {
+          "threshold": 0.9889418482780457,
+          "inner_oof_f1": 0.6415094339622641,
+          "inner_oof_positives": 64,
+          "positive_training_films": 8
+        },
+        "New Fourth Army": {
+          "threshold": 0.007824234664440155,
+          "inner_oof_f1": 8.44630263102327e-05,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        },
+        "National Revolutionary Army": {
+          "threshold": 0.37224218249320984,
+          "inner_oof_f1": 0.1125703564727955,
+          "inner_oof_positives": 39,
+          "positive_training_films": 6
+        },
+        "Imperial Japanese Army": {
+          "threshold": 0.9801778197288513,
+          "inner_oof_f1": 0.44521337946943484,
+          "inner_oof_positives": 391,
+          "positive_training_films": 17
+        },
+        "Chinese Communist Party": {
+          "threshold": 0.8907176852226257,
+          "inner_oof_f1": 0.09090909090909091,
+          "inner_oof_positives": 33,
+          "positive_training_films": 10
+        },
+        "KMT": {
+          "threshold": 0.5173739790916443,
+          "inner_oof_f1": 0.14285714285714285,
+          "inner_oof_positives": 7,
+          "positive_training_films": 5
+        },
+        "Yan'an Revolutionary Site": {
+          "threshold": 0.9462819695472717,
+          "inner_oof_f1": 0.20689655172413793,
+          "inner_oof_positives": 5,
+          "positive_training_films": 3
+        },
+        "Lugou Bridge": {
+          "threshold": 0.7923654317855835,
+          "inner_oof_f1": 0.0625,
+          "inner_oof_positives": 27,
+          "positive_training_films": 5
+        },
+        "Landmine warfare": {
+          "threshold": 0.9854705333709717,
+          "inner_oof_f1": 0.5365853658536586,
+          "inner_oof_positives": 108,
+          "positive_training_films": 8
+        },
+        "Guerrilla warfare": {
+          "threshold": 0.17559389770030975,
+          "inner_oof_f1": 0.00966183574879227,
+          "inner_oof_positives": 25,
+          "positive_training_films": 3
+        },
+        "National humiliation": {
+          "threshold": 0.02088296227157116,
+          "inner_oof_f1": 0.0006228589224540642,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        }
+      },
+      "per_label": {
+        "Marco Polo Bridge Incident": {
+          "n": 825,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Pingxingguan": {
+          "n": 825,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Taierzhuang": {
+          "n": 825,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Nanjing Massacre": {
+          "n": 825,
+          "positives": 6,
+          "precision": 0.3,
+          "recall": 0.5,
+          "f1": 0.37499999999999994,
+          "average_precision": 0.4014041514041514,
+          "roc_auc": 0.9934879934879934
+        },
+        "Second Sino-Japanese War": {
+          "n": 825,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Eighth Route Army": {
+          "n": 825,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "New Fourth Army": {
+          "n": 825,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National Revolutionary Army": {
+          "n": 825,
+          "positives": 3,
+          "precision": 0.1875,
+          "recall": 1.0,
+          "f1": 0.3157894736842105,
+          "average_precision": 0.38333333333333336,
+          "roc_auc": 0.9963503649635037
+        },
+        "Imperial Japanese Army": {
+          "n": 825,
+          "positives": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.07072027230885011,
+          "roc_auc": 0.9328335373317014
+        },
+        "Chinese Communist Party": {
+          "n": 825,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "KMT": {
+          "n": 825,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Yan'an Revolutionary Site": {
+          "n": 825,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Lugou Bridge": {
+          "n": 825,
+          "positives": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.017543859649122806,
+          "roc_auc": 0.9320388349514562
+        },
+        "Landmine warfare": {
+          "n": 825,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Guerrilla warfare": {
+          "n": 825,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National humiliation": {
+          "n": 825,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        }
+      }
+    },
+    "厨子戏子痞子": {
+      "test_positive_labels": [
+        "Imperial Japanese Army",
+        "Chinese Communist Party",
+        "Landmine warfare"
+      ],
+      "test_zero_positive_labels_not_evaluable": [
+        "Marco Polo Bridge Incident",
+        "Battle of Pingxingguan",
+        "Battle of Taierzhuang",
+        "Nanjing Massacre",
+        "Second Sino-Japanese War",
+        "Eighth Route Army",
+        "New Fourth Army",
+        "National Revolutionary Army",
+        "KMT",
+        "Yan'an Revolutionary Site",
+        "Lugou Bridge",
+        "Guerrilla warfare",
+        "National humiliation"
+      ],
+      "train_zero_positive_labels_unlearnable": [],
+      "calibration": {
+        "Marco Polo Bridge Incident": {
+          "threshold": 0.13602232933044434,
+          "inner_oof_f1": 0.005780346820809248,
+          "inner_oof_positives": 4,
+          "positive_training_films": 4
+        },
+        "Battle of Pingxingguan": {
+          "threshold": 0.060126978904008865,
+          "inner_oof_f1": 0.003076923076923077,
+          "inner_oof_positives": 2,
+          "positive_training_films": 1
+        },
+        "Battle of Taierzhuang": {
+          "threshold": 0.15949878096580505,
+          "inner_oof_f1": 0.003432003432003432,
+          "inner_oof_positives": 33,
+          "positive_training_films": 1
+        },
+        "Nanjing Massacre": {
+          "threshold": 0.8718510270118713,
+          "inner_oof_f1": 0.24390243902439024,
+          "inner_oof_positives": 33,
+          "positive_training_films": 5
+        },
+        "Second Sino-Japanese War": {
+          "threshold": 0.9506411552429199,
+          "inner_oof_f1": 0.2743682310469314,
+          "inner_oof_positives": 102,
+          "positive_training_films": 12
+        },
+        "Eighth Route Army": {
+          "threshold": 0.9581712484359741,
+          "inner_oof_f1": 0.6082474226804123,
+          "inner_oof_positives": 64,
+          "positive_training_films": 8
+        },
+        "New Fourth Army": {
+          "threshold": 0.008566001430153847,
+          "inner_oof_f1": 8.74355163067238e-05,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        },
+        "National Revolutionary Army": {
+          "threshold": 0.6733414530754089,
+          "inner_oof_f1": 0.15704387990762125,
+          "inner_oof_positives": 42,
+          "positive_training_films": 7
+        },
+        "Imperial Japanese Army": {
+          "threshold": 0.9367653131484985,
+          "inner_oof_f1": 0.4262734584450402,
+          "inner_oof_positives": 393,
+          "positive_training_films": 17
+        },
+        "Chinese Communist Party": {
+          "threshold": 0.6340872645378113,
+          "inner_oof_f1": 0.07272727272727272,
+          "inner_oof_positives": 32,
+          "positive_training_films": 9
+        },
+        "KMT": {
+          "threshold": 0.7148334980010986,
+          "inner_oof_f1": 0.42857142857142855,
+          "inner_oof_positives": 7,
+          "positive_training_films": 5
+        },
+        "Yan'an Revolutionary Site": {
+          "threshold": 0.9059945344924927,
+          "inner_oof_f1": 0.2222222222222222,
+          "inner_oof_positives": 5,
+          "positive_training_films": 3
+        },
+        "Lugou Bridge": {
+          "threshold": 0.41697758436203003,
+          "inner_oof_f1": 0.013311148086522463,
+          "inner_oof_positives": 28,
+          "positive_training_films": 6
+        },
+        "Landmine warfare": {
+          "threshold": 0.96314936876297,
+          "inner_oof_f1": 0.5145888594164456,
+          "inner_oof_positives": 107,
+          "positive_training_films": 7
+        },
+        "Guerrilla warfare": {
+          "threshold": 0.11155317723751068,
+          "inner_oof_f1": 0.00468384074941452,
+          "inner_oof_positives": 25,
+          "positive_training_films": 3
+        },
+        "National humiliation": {
+          "threshold": 0.021458640694618225,
+          "inner_oof_f1": 0.0006781959986436081,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        }
+      },
+      "per_label": {
+        "Marco Polo Bridge Incident": {
+          "n": 1635,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Pingxingguan": {
+          "n": 1635,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Taierzhuang": {
+          "n": 1635,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Nanjing Massacre": {
+          "n": 1635,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Second Sino-Japanese War": {
+          "n": 1635,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Eighth Route Army": {
+          "n": 1635,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "New Fourth Army": {
+          "n": 1635,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National Revolutionary Army": {
+          "n": 1635,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Imperial Japanese Army": {
+          "n": 1635,
+          "positives": 6,
+          "precision": 0.16666666666666666,
+          "recall": 0.6666666666666666,
+          "f1": 0.26666666666666666,
+          "average_precision": 0.41660561660561657,
+          "roc_auc": 0.988438714958052
+        },
+        "Chinese Communist Party": {
+          "n": 1635,
+          "positives": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.022222222222222223,
+          "roc_auc": 0.9730722154222766
+        },
+        "KMT": {
+          "n": 1635,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Yan'an Revolutionary Site": {
+          "n": 1635,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Lugou Bridge": {
+          "n": 1635,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Landmine warfare": {
+          "n": 1635,
+          "positives": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.1,
+          "roc_auc": 0.9944920440636474
+        },
+        "Guerrilla warfare": {
+          "n": 1635,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National humiliation": {
+          "n": 1635,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        }
+      }
+    },
+    "地道战": {
+      "test_positive_labels": [
+        "Second Sino-Japanese War",
+        "Eighth Route Army",
+        "Imperial Japanese Army",
+        "Chinese Communist Party",
+        "KMT",
+        "Landmine warfare",
+        "Guerrilla warfare"
+      ],
+      "test_zero_positive_labels_not_evaluable": [
+        "Marco Polo Bridge Incident",
+        "Battle of Pingxingguan",
+        "Battle of Taierzhuang",
+        "Nanjing Massacre",
+        "New Fourth Army",
+        "National Revolutionary Army",
+        "Yan'an Revolutionary Site",
+        "Lugou Bridge",
+        "National humiliation"
+      ],
+      "train_zero_positive_labels_unlearnable": [],
+      "calibration": {
+        "Marco Polo Bridge Incident": {
+          "threshold": 0.08453695476055145,
+          "inner_oof_f1": 0.003683241252302026,
+          "inner_oof_positives": 4,
+          "positive_training_films": 4
+        },
+        "Battle of Pingxingguan": {
+          "threshold": 0.03878859803080559,
+          "inner_oof_f1": 0.002175095160413268,
+          "inner_oof_positives": 2,
+          "positive_training_films": 1
+        },
+        "Battle of Taierzhuang": {
+          "threshold": 0.007446910720318556,
+          "inner_oof_f1": 0.002813539091141615,
+          "inner_oof_positives": 33,
+          "positive_training_films": 1
+        },
+        "Nanjing Massacre": {
+          "threshold": 0.5453724265098572,
+          "inner_oof_f1": 0.25925925925925924,
+          "inner_oof_positives": 33,
+          "positive_training_films": 5
+        },
+        "Second Sino-Japanese War": {
+          "threshold": 0.9420763850212097,
+          "inner_oof_f1": 0.26877470355731226,
+          "inner_oof_positives": 94,
+          "positive_training_films": 11
+        },
+        "Eighth Route Army": {
+          "threshold": 0.9679579138755798,
+          "inner_oof_f1": 0.6356589147286822,
+          "inner_oof_positives": 58,
+          "positive_training_films": 7
+        },
+        "New Fourth Army": {
+          "threshold": 0.0076762777753174305,
+          "inner_oof_f1": 8.481404520588609e-05,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        },
+        "National Revolutionary Army": {
+          "threshold": 0.6093868613243103,
+          "inner_oof_f1": 0.16377171215880892,
+          "inner_oof_positives": 42,
+          "positive_training_films": 7
+        },
+        "Imperial Japanese Army": {
+          "threshold": 0.946963906288147,
+          "inner_oof_f1": 0.38393574297188754,
+          "inner_oof_positives": 355,
+          "positive_training_films": 17
+        },
+        "Chinese Communist Party": {
+          "threshold": 0.8499457836151123,
+          "inner_oof_f1": 0.04,
+          "inner_oof_positives": 32,
+          "positive_training_films": 9
+        },
+        "KMT": {
+          "threshold": 0.7281473875045776,
+          "inner_oof_f1": 0.2,
+          "inner_oof_positives": 6,
+          "positive_training_films": 4
+        },
+        "Yan'an Revolutionary Site": {
+          "threshold": 0.814483642578125,
+          "inner_oof_f1": 0.18181818181818182,
+          "inner_oof_positives": 5,
+          "positive_training_films": 3
+        },
+        "Lugou Bridge": {
+          "threshold": 0.37316247820854187,
+          "inner_oof_f1": 0.005235602094240838,
+          "inner_oof_positives": 28,
+          "positive_training_films": 6
+        },
+        "Landmine warfare": {
+          "threshold": 0.8806957006454468,
+          "inner_oof_f1": 0.2891566265060241,
+          "inner_oof_positives": 66,
+          "positive_training_films": 7
+        },
+        "Guerrilla warfare": {
+          "threshold": 0.04778209701180458,
+          "inner_oof_f1": 0.0012360939431396785,
+          "inner_oof_positives": 7,
+          "positive_training_films": 2
+        },
+        "National humiliation": {
+          "threshold": 0.023000609129667282,
+          "inner_oof_f1": 0.0008948545861297539,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        }
+      },
+      "per_label": {
+        "Marco Polo Bridge Incident": {
+          "n": 960,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Pingxingguan": {
+          "n": 960,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Taierzhuang": {
+          "n": 960,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Nanjing Massacre": {
+          "n": 960,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Second Sino-Japanese War": {
+          "n": 960,
+          "positives": 8,
+          "precision": 0.6,
+          "recall": 0.375,
+          "f1": 0.4615384615384615,
+          "average_precision": 0.6203643364928909,
+          "roc_auc": 0.9716386554621849
+        },
+        "Eighth Route Army": {
+          "n": 960,
+          "positives": 6,
+          "precision": 0.7142857142857143,
+          "recall": 0.8333333333333334,
+          "f1": 0.7692307692307692,
+          "average_precision": 0.8138888888888889,
+          "roc_auc": 0.9984276729559748
+        },
+        "New Fourth Army": {
+          "n": 960,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National Revolutionary Army": {
+          "n": 960,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Imperial Japanese Army": {
+          "n": 960,
+          "positives": 44,
+          "precision": 0.6875,
+          "recall": 0.75,
+          "f1": 0.717391304347826,
+          "average_precision": 0.6385373598097495,
+          "roc_auc": 0.9876687177451369
+        },
+        "Chinese Communist Party": {
+          "n": 960,
+          "positives": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "average_precision": 1.0,
+          "roc_auc": 0.9999999999999999
+        },
+        "KMT": {
+          "n": 960,
+          "positives": 1,
+          "precision": 0.25,
+          "recall": 1.0,
+          "f1": 0.4,
+          "average_precision": 1.0,
+          "roc_auc": 1.0
+        },
+        "Yan'an Revolutionary Site": {
+          "n": 960,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Lugou Bridge": {
+          "n": 960,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Landmine warfare": {
+          "n": 960,
+          "positives": 42,
+          "precision": 0.8,
+          "recall": 0.9523809523809523,
+          "f1": 0.8695652173913043,
+          "average_precision": 0.9452332654569,
+          "roc_auc": 0.9975619877580663
+        },
+        "Guerrilla warfare": {
+          "n": 960,
+          "positives": 18,
+          "precision": 0.017543859649122806,
+          "recall": 0.05555555555555555,
+          "f1": 0.02666666666666667,
+          "average_precision": 0.030989370695681986,
+          "roc_auc": 0.6187485255956594
+        },
+        "National humiliation": {
+          "n": 960,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        }
+      }
+    },
+    "地雷战": {
+      "test_positive_labels": [
+        "Second Sino-Japanese War",
+        "Eighth Route Army",
+        "Imperial Japanese Army",
+        "Chinese Communist Party",
+        "Landmine warfare"
+      ],
+      "test_zero_positive_labels_not_evaluable": [
+        "Marco Polo Bridge Incident",
+        "Battle of Pingxingguan",
+        "Battle of Taierzhuang",
+        "Nanjing Massacre",
+        "New Fourth Army",
+        "National Revolutionary Army",
+        "KMT",
+        "Yan'an Revolutionary Site",
+        "Lugou Bridge",
+        "Guerrilla warfare",
+        "National humiliation"
+      ],
+      "train_zero_positive_labels_unlearnable": [],
+      "calibration": {
+        "Marco Polo Bridge Incident": {
+          "threshold": 0.01864573545753956,
+          "inner_oof_f1": 0.0005416629051187144,
+          "inner_oof_positives": 4,
+          "positive_training_films": 4
+        },
+        "Battle of Pingxingguan": {
+          "threshold": 0.03060993179678917,
+          "inner_oof_f1": 0.001384083044982699,
+          "inner_oof_positives": 2,
+          "positive_training_films": 1
+        },
+        "Battle of Taierzhuang": {
+          "threshold": 0.008263332769274712,
+          "inner_oof_f1": 0.0027548209366391185,
+          "inner_oof_positives": 33,
+          "positive_training_films": 1
+        },
+        "Nanjing Massacre": {
+          "threshold": 0.9050926566123962,
+          "inner_oof_f1": 0.27350427350427353,
+          "inner_oof_positives": 33,
+          "positive_training_films": 5
+        },
+        "Second Sino-Japanese War": {
+          "threshold": 0.9592089056968689,
+          "inner_oof_f1": 0.22439024390243903,
+          "inner_oof_positives": 98,
+          "positive_training_films": 11
+        },
+        "Eighth Route Army": {
+          "threshold": 0.9684457182884216,
+          "inner_oof_f1": 0.5053763440860215,
+          "inner_oof_positives": 60,
+          "positive_training_films": 7
+        },
+        "New Fourth Army": {
+          "threshold": 0.009306970052421093,
+          "inner_oof_f1": 9.931472837421789e-05,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        },
+        "National Revolutionary Army": {
+          "threshold": 0.6493502259254456,
+          "inner_oof_f1": 0.11255411255411256,
+          "inner_oof_positives": 42,
+          "positive_training_films": 7
+        },
+        "Imperial Japanese Army": {
+          "threshold": 0.8467562198638916,
+          "inner_oof_f1": 0.3396842678279804,
+          "inner_oof_positives": 355,
+          "positive_training_films": 17
+        },
+        "Chinese Communist Party": {
+          "threshold": 0.7490536570549011,
+          "inner_oof_f1": 0.04522613065326633,
+          "inner_oof_positives": 30,
+          "positive_training_films": 9
+        },
+        "KMT": {
+          "threshold": 0.9382650256156921,
+          "inner_oof_f1": 0.10810810810810811,
+          "inner_oof_positives": 7,
+          "positive_training_films": 5
+        },
+        "Yan'an Revolutionary Site": {
+          "threshold": 0.8546310663223267,
+          "inner_oof_f1": 0.125,
+          "inner_oof_positives": 5,
+          "positive_training_films": 3
+        },
+        "Lugou Bridge": {
+          "threshold": 0.5887301564216614,
+          "inner_oof_f1": 0.005361930294906166,
+          "inner_oof_positives": 28,
+          "positive_training_films": 6
+        },
+        "Landmine warfare": {
+          "threshold": 0.9827987551689148,
+          "inner_oof_f1": 0.6050420168067226,
+          "inner_oof_positives": 69,
+          "positive_training_films": 7
+        },
+        "Guerrilla warfare": {
+          "threshold": 0.15755796432495117,
+          "inner_oof_f1": 0.008836524300441826,
+          "inner_oof_positives": 25,
+          "positive_training_films": 3
+        },
+        "National humiliation": {
+          "threshold": 0.012505801394581795,
+          "inner_oof_f1": 0.00015018397536982803,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        }
+      },
+      "per_label": {
+        "Marco Polo Bridge Incident": {
+          "n": 612,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Pingxingguan": {
+          "n": 612,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Taierzhuang": {
+          "n": 612,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Nanjing Massacre": {
+          "n": 612,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Second Sino-Japanese War": {
+          "n": 612,
+          "positives": 4,
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "average_precision": 1.0,
+          "roc_auc": 1.0
+        },
+        "Eighth Route Army": {
+          "n": 612,
+          "positives": 4,
+          "precision": 0.3076923076923077,
+          "recall": 1.0,
+          "f1": 0.47058823529411764,
+          "average_precision": 0.95,
+          "roc_auc": 0.9995888157894736
+        },
+        "New Fourth Army": {
+          "n": 612,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National Revolutionary Army": {
+          "n": 612,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Imperial Japanese Army": {
+          "n": 612,
+          "positives": 44,
+          "precision": 0.6197183098591549,
+          "recall": 1.0,
+          "f1": 0.7652173913043477,
+          "average_precision": 0.6569828112098354,
+          "roc_auc": 0.9804737516005122
+        },
+        "Chinese Communist Party": {
+          "n": 612,
+          "positives": 3,
+          "precision": 0.5,
+          "recall": 0.3333333333333333,
+          "f1": 0.4,
+          "average_precision": 0.33898689998087583,
+          "roc_auc": 0.6841817186644773
+        },
+        "KMT": {
+          "n": 612,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Yan'an Revolutionary Site": {
+          "n": 612,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Lugou Bridge": {
+          "n": 612,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Landmine warfare": {
+          "n": 612,
+          "positives": 39,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.6722064111120242,
+          "roc_auc": 0.9701525931892424
+        },
+        "Guerrilla warfare": {
+          "n": 612,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National humiliation": {
+          "n": 612,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        }
+      }
+    },
+    "小兵张嘎": {
+      "test_positive_labels": [
+        "Eighth Route Army",
+        "Imperial Japanese Army",
+        "Chinese Communist Party"
+      ],
+      "test_zero_positive_labels_not_evaluable": [
+        "Marco Polo Bridge Incident",
+        "Battle of Pingxingguan",
+        "Battle of Taierzhuang",
+        "Nanjing Massacre",
+        "Second Sino-Japanese War",
+        "New Fourth Army",
+        "National Revolutionary Army",
+        "KMT",
+        "Yan'an Revolutionary Site",
+        "Lugou Bridge",
+        "Landmine warfare",
+        "Guerrilla warfare",
+        "National humiliation"
+      ],
+      "train_zero_positive_labels_unlearnable": [],
+      "calibration": {
+        "Marco Polo Bridge Incident": {
+          "threshold": 0.055336084216833115,
+          "inner_oof_f1": 0.0009615384615384616,
+          "inner_oof_positives": 4,
+          "positive_training_films": 4
+        },
+        "Battle of Pingxingguan": {
+          "threshold": 0.06682808697223663,
+          "inner_oof_f1": 0.004008016032064128,
+          "inner_oof_positives": 2,
+          "positive_training_films": 1
+        },
+        "Battle of Taierzhuang": {
+          "threshold": 0.00892812293022871,
+          "inner_oof_f1": 0.002909884513958352,
+          "inner_oof_positives": 33,
+          "positive_training_films": 1
+        },
+        "Nanjing Massacre": {
+          "threshold": 0.7233257293701172,
+          "inner_oof_f1": 0.35555555555555557,
+          "inner_oof_positives": 33,
+          "positive_training_films": 5
+        },
+        "Second Sino-Japanese War": {
+          "threshold": 0.9372641444206238,
+          "inner_oof_f1": 0.19390581717451524,
+          "inner_oof_positives": 102,
+          "positive_training_films": 12
+        },
+        "Eighth Route Army": {
+          "threshold": 0.9856703877449036,
+          "inner_oof_f1": 0.54421768707483,
+          "inner_oof_positives": 54,
+          "positive_training_films": 7
+        },
+        "New Fourth Army": {
+          "threshold": 0.00911649689078331,
+          "inner_oof_f1": 0.00013071895424836603,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        },
+        "National Revolutionary Army": {
+          "threshold": 0.9385003447532654,
+          "inner_oof_f1": 0.09917355371900827,
+          "inner_oof_positives": 42,
+          "positive_training_films": 7
+        },
+        "Imperial Japanese Army": {
+          "threshold": 0.9395621418952942,
+          "inner_oof_f1": 0.42857142857142855,
+          "inner_oof_positives": 384,
+          "positive_training_films": 17
+        },
+        "Chinese Communist Party": {
+          "threshold": 0.7856298089027405,
+          "inner_oof_f1": 0.08928571428571429,
+          "inner_oof_positives": 30,
+          "positive_training_films": 9
+        },
+        "KMT": {
+          "threshold": 0.44972947239875793,
+          "inner_oof_f1": 0.1,
+          "inner_oof_positives": 7,
+          "positive_training_films": 5
+        },
+        "Yan'an Revolutionary Site": {
+          "threshold": 0.8447191119194031,
+          "inner_oof_f1": 0.25806451612903225,
+          "inner_oof_positives": 5,
+          "positive_training_films": 3
+        },
+        "Lugou Bridge": {
+          "threshold": 0.37150412797927856,
+          "inner_oof_f1": 0.005390835579514825,
+          "inner_oof_positives": 28,
+          "positive_training_films": 6
+        },
+        "Landmine warfare": {
+          "threshold": 0.5907689929008484,
+          "inner_oof_f1": 0.4079822616407982,
+          "inner_oof_positives": 108,
+          "positive_training_films": 8
+        },
+        "Guerrilla warfare": {
+          "threshold": 0.21169106662273407,
+          "inner_oof_f1": 0.016985138004246284,
+          "inner_oof_positives": 25,
+          "positive_training_films": 3
+        },
+        "National humiliation": {
+          "threshold": 0.009265425615012646,
+          "inner_oof_f1": 0.0001219437839156149,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        }
+      },
+      "per_label": {
+        "Marco Polo Bridge Incident": {
+          "n": 836,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Pingxingguan": {
+          "n": 836,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Taierzhuang": {
+          "n": 836,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Nanjing Massacre": {
+          "n": 836,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Second Sino-Japanese War": {
+          "n": 836,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Eighth Route Army": {
+          "n": 836,
+          "positives": 10,
+          "precision": 0.2962962962962963,
+          "recall": 0.8,
+          "f1": 0.43243243243243246,
+          "average_precision": 0.396944283786389,
+          "roc_auc": 0.9865617433414043
+        },
+        "New Fourth Army": {
+          "n": 836,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National Revolutionary Army": {
+          "n": 836,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Imperial Japanese Army": {
+          "n": 836,
+          "positives": 15,
+          "precision": 0.12612612612612611,
+          "recall": 0.9333333333333333,
+          "f1": 0.22222222222222218,
+          "average_precision": 0.4222608449879084,
+          "roc_auc": 0.9586682907023955
+        },
+        "Chinese Communist Party": {
+          "n": 836,
+          "positives": 3,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.01540683115503904,
+          "roc_auc": 0.7236894757903161
+        },
+        "KMT": {
+          "n": 836,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Yan'an Revolutionary Site": {
+          "n": 836,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Lugou Bridge": {
+          "n": 836,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Landmine warfare": {
+          "n": 836,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Guerrilla warfare": {
+          "n": 836,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National humiliation": {
+          "n": 836,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        }
+      }
+    },
+    "平原作战": {
+      "test_positive_labels": [
+        "Second Sino-Japanese War",
+        "Eighth Route Army",
+        "Imperial Japanese Army",
+        "Chinese Communist Party",
+        "Yan'an Revolutionary Site",
+        "Landmine warfare",
+        "Guerrilla warfare"
+      ],
+      "test_zero_positive_labels_not_evaluable": [
+        "Marco Polo Bridge Incident",
+        "Battle of Pingxingguan",
+        "Battle of Taierzhuang",
+        "Nanjing Massacre",
+        "New Fourth Army",
+        "National Revolutionary Army",
+        "KMT",
+        "Lugou Bridge",
+        "National humiliation"
+      ],
+      "train_zero_positive_labels_unlearnable": [],
+      "calibration": {
+        "Marco Polo Bridge Incident": {
+          "threshold": 0.21469293534755707,
+          "inner_oof_f1": 0.00554016620498615,
+          "inner_oof_positives": 4,
+          "positive_training_films": 4
+        },
+        "Battle of Pingxingguan": {
+          "threshold": 0.269233763217926,
+          "inner_oof_f1": 0.01092896174863388,
+          "inner_oof_positives": 2,
+          "positive_training_films": 1
+        },
+        "Battle of Taierzhuang": {
+          "threshold": 0.08416137844324112,
+          "inner_oof_f1": 0.0033325398714591763,
+          "inner_oof_positives": 33,
+          "positive_training_films": 1
+        },
+        "Nanjing Massacre": {
+          "threshold": 0.9617024064064026,
+          "inner_oof_f1": 0.38202247191011235,
+          "inner_oof_positives": 33,
+          "positive_training_films": 5
+        },
+        "Second Sino-Japanese War": {
+          "threshold": 0.9639943242073059,
+          "inner_oof_f1": 0.19653179190751446,
+          "inner_oof_positives": 87,
+          "positive_training_films": 11
+        },
+        "Eighth Route Army": {
+          "threshold": 0.9904782772064209,
+          "inner_oof_f1": 0.5426356589147286,
+          "inner_oof_positives": 51,
+          "positive_training_films": 7
+        },
+        "New Fourth Army": {
+          "threshold": 0.048391107469797134,
+          "inner_oof_f1": 0.0011474469305794606,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        },
+        "National Revolutionary Army": {
+          "threshold": 0.8791040778160095,
+          "inner_oof_f1": 0.1772853185595568,
+          "inner_oof_positives": 42,
+          "positive_training_films": 7
+        },
+        "Imperial Japanese Army": {
+          "threshold": 0.934971272945404,
+          "inner_oof_f1": 0.3817235396182765,
+          "inner_oof_positives": 365,
+          "positive_training_films": 17
+        },
+        "Chinese Communist Party": {
+          "threshold": 0.6184348464012146,
+          "inner_oof_f1": 0.04363636363636364,
+          "inner_oof_positives": 29,
+          "positive_training_films": 9
+        },
+        "KMT": {
+          "threshold": 0.7542385458946228,
+          "inner_oof_f1": 0.4,
+          "inner_oof_positives": 7,
+          "positive_training_films": 5
+        },
+        "Yan'an Revolutionary Site": {
+          "threshold": 0.33980464935302734,
+          "inner_oof_f1": 0.050955414012738856,
+          "inner_oof_positives": 4,
+          "positive_training_films": 2
+        },
+        "Lugou Bridge": {
+          "threshold": 0.5195222496986389,
+          "inner_oof_f1": 0.012300123001230012,
+          "inner_oof_positives": 28,
+          "positive_training_films": 6
+        },
+        "Landmine warfare": {
+          "threshold": 0.44885337352752686,
+          "inner_oof_f1": 0.2962962962962963,
+          "inner_oof_positives": 91,
+          "positive_training_films": 7
+        },
+        "Guerrilla warfare": {
+          "threshold": 0.23071768879890442,
+          "inner_oof_f1": 0.004362050163576881,
+          "inner_oof_positives": 21,
+          "positive_training_films": 2
+        },
+        "National humiliation": {
+          "threshold": 0.04100402444601059,
+          "inner_oof_f1": 0.000859106529209622,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        }
+      },
+      "per_label": {
+        "Marco Polo Bridge Incident": {
+          "n": 2203,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Pingxingguan": {
+          "n": 2203,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Taierzhuang": {
+          "n": 2203,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Nanjing Massacre": {
+          "n": 2203,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Second Sino-Japanese War": {
+          "n": 2203,
+          "positives": 15,
+          "precision": 0.5,
+          "recall": 0.3333333333333333,
+          "f1": 0.4,
+          "average_precision": 0.3226399154275879,
+          "roc_auc": 0.8908897014015844
+        },
+        "Eighth Route Army": {
+          "n": 2203,
+          "positives": 13,
+          "precision": 0.631578947368421,
+          "recall": 0.9230769230769231,
+          "f1": 0.7499999999999999,
+          "average_precision": 0.866715976331361,
+          "roc_auc": 0.9990867579908677
+        },
+        "New Fourth Army": {
+          "n": 2203,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National Revolutionary Army": {
+          "n": 2203,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Imperial Japanese Army": {
+          "n": 2203,
+          "positives": 34,
+          "precision": 0.4,
+          "recall": 0.4117647058823529,
+          "f1": 0.40579710144927533,
+          "average_precision": 0.4089547242704664,
+          "roc_auc": 0.9885010712445421
+        },
+        "Chinese Communist Party": {
+          "n": 2203,
+          "positives": 4,
+          "precision": 0.041666666666666664,
+          "recall": 0.25,
+          "f1": 0.07142857142857142,
+          "average_precision": 0.12768817204301075,
+          "roc_auc": 0.6380172805820827
+        },
+        "KMT": {
+          "n": 2203,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Yan'an Revolutionary Site": {
+          "n": 2203,
+          "positives": 1,
+          "precision": 0.14285714285714285,
+          "recall": 1.0,
+          "f1": 0.25,
+          "average_precision": 0.14285714285714285,
+          "roc_auc": 0.997275204359673
+        },
+        "Lugou Bridge": {
+          "n": 2203,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Landmine warfare": {
+          "n": 2203,
+          "positives": 17,
+          "precision": 0.4358974358974359,
+          "recall": 1.0,
+          "f1": 0.6071428571428571,
+          "average_precision": 0.9967320261437909,
+          "roc_auc": 0.999973090791669
+        },
+        "Guerrilla warfare": {
+          "n": 2203,
+          "positives": 4,
+          "precision": 0.0196078431372549,
+          "recall": 0.25,
+          "f1": 0.03636363636363636,
+          "average_precision": 0.01969216900567015,
+          "roc_auc": 0.9264438381082309
+        },
+        "National humiliation": {
+          "n": 2203,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        }
+      }
+    },
+    "战争子午线": {
+      "test_positive_labels": [
+        "Second Sino-Japanese War",
+        "Eighth Route Army",
+        "Imperial Japanese Army",
+        "Landmine warfare"
+      ],
+      "test_zero_positive_labels_not_evaluable": [
+        "Marco Polo Bridge Incident",
+        "Battle of Pingxingguan",
+        "Battle of Taierzhuang",
+        "Nanjing Massacre",
+        "New Fourth Army",
+        "National Revolutionary Army",
+        "Chinese Communist Party",
+        "KMT",
+        "Yan'an Revolutionary Site",
+        "Lugou Bridge",
+        "Guerrilla warfare",
+        "National humiliation"
+      ],
+      "train_zero_positive_labels_unlearnable": [],
+      "calibration": {
+        "Marco Polo Bridge Incident": {
+          "threshold": 0.026142455637454987,
+          "inner_oof_f1": 0.0007013852358407856,
+          "inner_oof_positives": 4,
+          "positive_training_films": 4
+        },
+        "Battle of Pingxingguan": {
+          "threshold": 0.026142096146941185,
+          "inner_oof_f1": 0.0016501650165016502,
+          "inner_oof_positives": 2,
+          "positive_training_films": 1
+        },
+        "Battle of Taierzhuang": {
+          "threshold": 0.00834592990577221,
+          "inner_oof_f1": 0.003026023804720597,
+          "inner_oof_positives": 33,
+          "positive_training_films": 1
+        },
+        "Nanjing Massacre": {
+          "threshold": 0.8408066034317017,
+          "inner_oof_f1": 0.2893081761006289,
+          "inner_oof_positives": 33,
+          "positive_training_films": 5
+        },
+        "Second Sino-Japanese War": {
+          "threshold": 0.9522175192832947,
+          "inner_oof_f1": 0.2586750788643533,
+          "inner_oof_positives": 97,
+          "positive_training_films": 11
+        },
+        "Eighth Route Army": {
+          "threshold": 0.9733677506446838,
+          "inner_oof_f1": 0.4842105263157895,
+          "inner_oof_positives": 57,
+          "positive_training_films": 7
+        },
+        "New Fourth Army": {
+          "threshold": 0.008378444239497185,
+          "inner_oof_f1": 9.546083719154218e-05,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        },
+        "National Revolutionary Army": {
+          "threshold": 0.9744225740432739,
+          "inner_oof_f1": 0.09045226130653267,
+          "inner_oof_positives": 42,
+          "positive_training_films": 7
+        },
+        "Imperial Japanese Army": {
+          "threshold": 0.9549824595451355,
+          "inner_oof_f1": 0.3985194324491055,
+          "inner_oof_positives": 382,
+          "positive_training_films": 17
+        },
+        "Chinese Communist Party": {
+          "threshold": 0.8731626272201538,
+          "inner_oof_f1": 0.05333333333333334,
+          "inner_oof_positives": 33,
+          "positive_training_films": 10
+        },
+        "KMT": {
+          "threshold": 0.6445336937904358,
+          "inner_oof_f1": 0.18604651162790697,
+          "inner_oof_positives": 7,
+          "positive_training_films": 5
+        },
+        "Yan'an Revolutionary Site": {
+          "threshold": 0.8952932953834534,
+          "inner_oof_f1": 0.2222222222222222,
+          "inner_oof_positives": 5,
+          "positive_training_films": 3
+        },
+        "Lugou Bridge": {
+          "threshold": 0.1066884845495224,
+          "inner_oof_f1": 0.004909180166912126,
+          "inner_oof_positives": 28,
+          "positive_training_films": 6
+        },
+        "Landmine warfare": {
+          "threshold": 0.857420027256012,
+          "inner_oof_f1": 0.42727272727272725,
+          "inner_oof_positives": 105,
+          "positive_training_films": 7
+        },
+        "Guerrilla warfare": {
+          "threshold": 0.3600004315376282,
+          "inner_oof_f1": 0.023809523809523808,
+          "inner_oof_positives": 25,
+          "positive_training_films": 3
+        },
+        "National humiliation": {
+          "threshold": 0.007509415037930012,
+          "inner_oof_f1": 8.388206182107957e-05,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        }
+      },
+      "per_label": {
+        "Marco Polo Bridge Incident": {
+          "n": 661,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Pingxingguan": {
+          "n": 661,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Taierzhuang": {
+          "n": 661,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Nanjing Massacre": {
+          "n": 661,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Second Sino-Japanese War": {
+          "n": 661,
+          "positives": 5,
+          "precision": 0.5,
+          "recall": 0.4,
+          "f1": 0.4444444444444445,
+          "average_precision": 0.5909090909090909,
+          "roc_auc": 0.9951219512195122
+        },
+        "Eighth Route Army": {
+          "n": 661,
+          "positives": 7,
+          "precision": 0.6666666666666666,
+          "recall": 0.8571428571428571,
+          "f1": 0.75,
+          "average_precision": 0.9571428571428571,
+          "roc_auc": 0.9993446920052425
+        },
+        "New Fourth Army": {
+          "n": 661,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National Revolutionary Army": {
+          "n": 661,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Imperial Japanese Army": {
+          "n": 661,
+          "positives": 17,
+          "precision": 0.3,
+          "recall": 0.8823529411764706,
+          "f1": 0.44776119402985076,
+          "average_precision": 0.4869245679687866,
+          "roc_auc": 0.9794026306174644
+        },
+        "Chinese Communist Party": {
+          "n": 661,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "KMT": {
+          "n": 661,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Yan'an Revolutionary Site": {
+          "n": 661,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Lugou Bridge": {
+          "n": 661,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Landmine warfare": {
+          "n": 661,
+          "positives": 3,
+          "precision": 0.1875,
+          "recall": 1.0,
+          "f1": 0.3157894736842105,
+          "average_precision": 0.4714285714285714,
+          "roc_auc": 0.9903748733535968
+        },
+        "Guerrilla warfare": {
+          "n": 661,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National humiliation": {
+          "n": 661,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        }
+      }
+    },
+    "白求恩大夫": {
+      "test_positive_labels": [
+        "Second Sino-Japanese War",
+        "Eighth Route Army",
+        "Imperial Japanese Army",
+        "Chinese Communist Party",
+        "KMT",
+        "Yan'an Revolutionary Site",
+        "Lugou Bridge",
+        "Guerrilla warfare"
+      ],
+      "test_zero_positive_labels_not_evaluable": [
+        "Marco Polo Bridge Incident",
+        "Battle of Pingxingguan",
+        "Battle of Taierzhuang",
+        "Nanjing Massacre",
+        "New Fourth Army",
+        "National Revolutionary Army",
+        "Landmine warfare",
+        "National humiliation"
+      ],
+      "train_zero_positive_labels_unlearnable": [],
+      "calibration": {
+        "Marco Polo Bridge Incident": {
+          "threshold": 0.30943942070007324,
+          "inner_oof_f1": 0.07142857142857142,
+          "inner_oof_positives": 4,
+          "positive_training_films": 4
+        },
+        "Battle of Pingxingguan": {
+          "threshold": 0.19272297620773315,
+          "inner_oof_f1": 0.01015228426395939,
+          "inner_oof_positives": 2,
+          "positive_training_films": 1
+        },
+        "Battle of Taierzhuang": {
+          "threshold": 0.004857924301177263,
+          "inner_oof_f1": 0.002828248200205691,
+          "inner_oof_positives": 33,
+          "positive_training_films": 1
+        },
+        "Nanjing Massacre": {
+          "threshold": 0.8710141777992249,
+          "inner_oof_f1": 0.19047619047619047,
+          "inner_oof_positives": 33,
+          "positive_training_films": 5
+        },
+        "Second Sino-Japanese War": {
+          "threshold": 0.9793708324432373,
+          "inner_oof_f1": 0.12280701754385964,
+          "inner_oof_positives": 98,
+          "positive_training_films": 11
+        },
+        "Eighth Route Army": {
+          "threshold": 0.9205669164657593,
+          "inner_oof_f1": 0.547486033519553,
+          "inner_oof_positives": 53,
+          "positive_training_films": 7
+        },
+        "New Fourth Army": {
+          "threshold": 0.009223665110766888,
+          "inner_oof_f1": 8.745463290917836e-05,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        },
+        "National Revolutionary Army": {
+          "threshold": 0.9620294570922852,
+          "inner_oof_f1": 0.2564102564102564,
+          "inner_oof_positives": 42,
+          "positive_training_films": 7
+        },
+        "Imperial Japanese Army": {
+          "threshold": 0.8979121446609497,
+          "inner_oof_f1": 0.38820375335120644,
+          "inner_oof_positives": 398,
+          "positive_training_films": 17
+        },
+        "Chinese Communist Party": {
+          "threshold": 0.7104488015174866,
+          "inner_oof_f1": 0.022900763358778626,
+          "inner_oof_positives": 30,
+          "positive_training_films": 9
+        },
+        "KMT": {
+          "threshold": 0.8201777338981628,
+          "inner_oof_f1": 0.08333333333333333,
+          "inner_oof_positives": 6,
+          "positive_training_films": 4
+        },
+        "Yan'an Revolutionary Site": {
+          "threshold": 0.7029435634613037,
+          "inner_oof_f1": 0.2222222222222222,
+          "inner_oof_positives": 2,
+          "positive_training_films": 2
+        },
+        "Lugou Bridge": {
+          "threshold": 0.5566237568855286,
+          "inner_oof_f1": 0.029197080291970802,
+          "inner_oof_positives": 26,
+          "positive_training_films": 5
+        },
+        "Landmine warfare": {
+          "threshold": 0.2556847929954529,
+          "inner_oof_f1": 0.20972972972972972,
+          "inner_oof_positives": 108,
+          "positive_training_films": 8
+        },
+        "Guerrilla warfare": {
+          "threshold": 0.007455617189407349,
+          "inner_oof_f1": 0.0019064124783362219,
+          "inner_oof_positives": 22,
+          "positive_training_films": 2
+        },
+        "National humiliation": {
+          "threshold": 0.06720584630966187,
+          "inner_oof_f1": 0.001892147587511826,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        }
+      },
+      "per_label": {
+        "Marco Polo Bridge Incident": {
+          "n": 1254,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Pingxingguan": {
+          "n": 1254,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Taierzhuang": {
+          "n": 1254,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Nanjing Massacre": {
+          "n": 1254,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Second Sino-Japanese War": {
+          "n": 1254,
+          "positives": 4,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.7553763440860215,
+          "roc_auc": 0.9636
+        },
+        "Eighth Route Army": {
+          "n": 1254,
+          "positives": 11,
+          "precision": 0.9166666666666666,
+          "recall": 1.0,
+          "f1": 0.9565217391304348,
+          "average_precision": 0.9254656959202414,
+          "roc_auc": 0.9994880421268193
+        },
+        "New Fourth Army": {
+          "n": 1254,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National Revolutionary Army": {
+          "n": 1254,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Imperial Japanese Army": {
+          "n": 1254,
+          "positives": 1,
+          "precision": 0.022222222222222223,
+          "recall": 1.0,
+          "f1": 0.04347826086956522,
+          "average_precision": 0.058823529411764705,
+          "roc_auc": 0.9872306464485235
+        },
+        "Chinese Communist Party": {
+          "n": 1254,
+          "positives": 3,
+          "precision": 0.14285714285714285,
+          "recall": 0.6666666666666666,
+          "f1": 0.23529411764705882,
+          "average_precision": 0.5574177529484793,
+          "roc_auc": 0.8579802824407141
+        },
+        "KMT": {
+          "n": 1254,
+          "positives": 1,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "average_precision": 1.0,
+          "roc_auc": 1.0
+        },
+        "Yan'an Revolutionary Site": {
+          "n": 1254,
+          "positives": 3,
+          "precision": 0.3,
+          "recall": 1.0,
+          "f1": 0.4615384615384615,
+          "average_precision": 0.8666666666666667,
+          "roc_auc": 0.9994670929922729
+        },
+        "Lugou Bridge": {
+          "n": 1254,
+          "positives": 2,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.004319654427645789,
+          "roc_auc": 0.6473642172523961
+        },
+        "Landmine warfare": {
+          "n": 1254,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Guerrilla warfare": {
+          "n": 1254,
+          "positives": 3,
+          "precision": 0.0023923444976076554,
+          "recall": 1.0,
+          "f1": 0.0047732696897374695,
+          "average_precision": 0.00403614011005889,
+          "roc_auc": 0.49160671462829736
+        },
+        "National humiliation": {
+          "n": 1254,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        }
+      }
+    },
+    "血战台儿庄": {
+      "test_positive_labels": [
+        "Marco Polo Bridge Incident",
+        "Battle of Pingxingguan",
+        "Battle of Taierzhuang",
+        "Second Sino-Japanese War",
+        "New Fourth Army",
+        "National Revolutionary Army",
+        "Imperial Japanese Army",
+        "Lugou Bridge"
+      ],
+      "test_zero_positive_labels_not_evaluable": [
+        "Nanjing Massacre",
+        "Eighth Route Army",
+        "Chinese Communist Party",
+        "KMT",
+        "Yan'an Revolutionary Site",
+        "Landmine warfare",
+        "Guerrilla warfare",
+        "National humiliation"
+      ],
+      "train_zero_positive_labels_unlearnable": [
+        "Battle of Pingxingguan",
+        "Battle of Taierzhuang",
+        "New Fourth Army"
+      ],
+      "calibration": {
+        "Marco Polo Bridge Incident": {
+          "threshold": 0.03735138848423958,
+          "inner_oof_f1": 0.0010362694300518134,
+          "inner_oof_positives": 3,
+          "positive_training_films": 3
+        },
+        "Battle of Pingxingguan": {
+          "threshold": 0.5,
+          "inner_oof_f1": 0.0,
+          "inner_oof_positives": 0,
+          "positive_training_films": 0
+        },
+        "Battle of Taierzhuang": {
+          "threshold": 0.5,
+          "inner_oof_f1": 0.0,
+          "inner_oof_positives": 0,
+          "positive_training_films": 0
+        },
+        "Nanjing Massacre": {
+          "threshold": 0.9134063720703125,
+          "inner_oof_f1": 0.3464566929133858,
+          "inner_oof_positives": 33,
+          "positive_training_films": 5
+        },
+        "Second Sino-Japanese War": {
+          "threshold": 0.958672285079956,
+          "inner_oof_f1": 0.28708133971291866,
+          "inner_oof_positives": 84,
+          "positive_training_films": 11
+        },
+        "Eighth Route Army": {
+          "threshold": 0.9688633680343628,
+          "inner_oof_f1": 0.5680473372781065,
+          "inner_oof_positives": 64,
+          "positive_training_films": 8
+        },
+        "New Fourth Army": {
+          "threshold": 0.5,
+          "inner_oof_f1": 0.0,
+          "inner_oof_positives": 0,
+          "positive_training_films": 0
+        },
+        "National Revolutionary Army": {
+          "threshold": 0.4672192633152008,
+          "inner_oof_f1": 0.15324165029469547,
+          "inner_oof_positives": 39,
+          "positive_training_films": 6
+        },
+        "Imperial Japanese Army": {
+          "threshold": 0.870648980140686,
+          "inner_oof_f1": 0.3424036281179138,
+          "inner_oof_positives": 326,
+          "positive_training_films": 17
+        },
+        "Chinese Communist Party": {
+          "threshold": 0.9010729193687439,
+          "inner_oof_f1": 0.05555555555555555,
+          "inner_oof_positives": 33,
+          "positive_training_films": 10
+        },
+        "KMT": {
+          "threshold": 0.5249056816101074,
+          "inner_oof_f1": 0.12903225806451613,
+          "inner_oof_positives": 7,
+          "positive_training_films": 5
+        },
+        "Yan'an Revolutionary Site": {
+          "threshold": 0.7472085952758789,
+          "inner_oof_f1": 0.1095890410958904,
+          "inner_oof_positives": 5,
+          "positive_training_films": 3
+        },
+        "Lugou Bridge": {
+          "threshold": 0.6798015236854553,
+          "inner_oof_f1": 0.012269938650306749,
+          "inner_oof_positives": 27,
+          "positive_training_films": 5
+        },
+        "Landmine warfare": {
+          "threshold": 0.9711734652519226,
+          "inner_oof_f1": 0.5173501577287066,
+          "inner_oof_positives": 108,
+          "positive_training_films": 8
+        },
+        "Guerrilla warfare": {
+          "threshold": 0.057725388556718826,
+          "inner_oof_f1": 0.002631994525451387,
+          "inner_oof_positives": 25,
+          "positive_training_films": 3
+        },
+        "National humiliation": {
+          "threshold": 0.02833547070622444,
+          "inner_oof_f1": 0.0008948545861297539,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        }
+      },
+      "per_label": {
+        "Marco Polo Bridge Incident": {
+          "n": 1034,
+          "positives": 1,
+          "precision": 0.005813953488372093,
+          "recall": 1.0,
+          "f1": 0.011560693641618497,
+          "average_precision": 0.011363636363636364,
+          "roc_auc": 0.9157792836398838
+        },
+        "Battle of Pingxingguan": {
+          "n": 1034,
+          "positives": 2,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.10512820512820513,
+          "roc_auc": 0.9878875968992248
+        },
+        "Battle of Taierzhuang": {
+          "n": 1034,
+          "positives": 33,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.06619329281823341,
+          "roc_auc": 0.652196288559925
+        },
+        "Nanjing Massacre": {
+          "n": 1034,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Second Sino-Japanese War": {
+          "n": 1034,
+          "positives": 18,
+          "precision": 0.1506849315068493,
+          "recall": 0.6111111111111112,
+          "f1": 0.2417582417582418,
+          "average_precision": 0.17430286143845614,
+          "roc_auc": 0.8127187226596675
+        },
+        "Eighth Route Army": {
+          "n": 1034,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "New Fourth Army": {
+          "n": 1034,
+          "positives": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.0036496350364963502,
+          "roc_auc": 0.7357212003872217
+        },
+        "National Revolutionary Army": {
+          "n": 1034,
+          "positives": 3,
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222222222222222,
+          "average_precision": 0.3625,
+          "roc_auc": 0.9945037180730683
+        },
+        "Imperial Japanese Army": {
+          "n": 1034,
+          "positives": 73,
+          "precision": 0.553030303030303,
+          "recall": 1.0,
+          "f1": 0.7121951219512195,
+          "average_precision": 0.76092326165174,
+          "roc_auc": 0.9835930038629852
+        },
+        "Chinese Communist Party": {
+          "n": 1034,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "KMT": {
+          "n": 1034,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Yan'an Revolutionary Site": {
+          "n": 1034,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Lugou Bridge": {
+          "n": 1034,
+          "positives": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.00847457627118644,
+          "roc_auc": 0.8867376573088093
+        },
+        "Landmine warfare": {
+          "n": 1034,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Guerrilla warfare": {
+          "n": 1034,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National humiliation": {
+          "n": 1034,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        }
+      }
+    },
+    "野火春风斗古城": {
+      "test_positive_labels": [
+        "Marco Polo Bridge Incident",
+        "Second Sino-Japanese War",
+        "Eighth Route Army",
+        "Imperial Japanese Army",
+        "Chinese Communist Party",
+        "Landmine warfare"
+      ],
+      "test_zero_positive_labels_not_evaluable": [
+        "Battle of Pingxingguan",
+        "Battle of Taierzhuang",
+        "Nanjing Massacre",
+        "New Fourth Army",
+        "National Revolutionary Army",
+        "KMT",
+        "Yan'an Revolutionary Site",
+        "Lugou Bridge",
+        "Guerrilla warfare",
+        "National humiliation"
+      ],
+      "train_zero_positive_labels_unlearnable": [],
+      "calibration": {
+        "Marco Polo Bridge Incident": {
+          "threshold": 0.17870257794857025,
+          "inner_oof_f1": 0.010050251256281407,
+          "inner_oof_positives": 3,
+          "positive_training_films": 3
+        },
+        "Battle of Pingxingguan": {
+          "threshold": 0.06954725086688995,
+          "inner_oof_f1": 0.003940886699507389,
+          "inner_oof_positives": 2,
+          "positive_training_films": 1
+        },
+        "Battle of Taierzhuang": {
+          "threshold": 0.011789798736572266,
+          "inner_oof_f1": 0.003114456267843239,
+          "inner_oof_positives": 33,
+          "positive_training_films": 1
+        },
+        "Nanjing Massacre": {
+          "threshold": 0.488511323928833,
+          "inner_oof_f1": 0.19393939393939394,
+          "inner_oof_positives": 33,
+          "positive_training_films": 5
+        },
+        "Second Sino-Japanese War": {
+          "threshold": 0.9439693093299866,
+          "inner_oof_f1": 0.2462686567164179,
+          "inner_oof_positives": 101,
+          "positive_training_films": 11
+        },
+        "Eighth Route Army": {
+          "threshold": 0.9600852727890015,
+          "inner_oof_f1": 0.5123152709359606,
+          "inner_oof_positives": 60,
+          "positive_training_films": 7
+        },
+        "New Fourth Army": {
+          "threshold": 0.01173524558544159,
+          "inner_oof_f1": 0.00011978199676588608,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        },
+        "National Revolutionary Army": {
+          "threshold": 0.5260024666786194,
+          "inner_oof_f1": 0.16042780748663102,
+          "inner_oof_positives": 42,
+          "positive_training_films": 7
+        },
+        "Imperial Japanese Army": {
+          "threshold": 0.9354362487792969,
+          "inner_oof_f1": 0.4494047619047619,
+          "inner_oof_positives": 390,
+          "positive_training_films": 17
+        },
+        "Chinese Communist Party": {
+          "threshold": 0.2689129710197449,
+          "inner_oof_f1": 0.02886002886002886,
+          "inner_oof_positives": 25,
+          "positive_training_films": 9
+        },
+        "KMT": {
+          "threshold": 0.9494508504867554,
+          "inner_oof_f1": 0.25,
+          "inner_oof_positives": 7,
+          "positive_training_films": 5
+        },
+        "Yan'an Revolutionary Site": {
+          "threshold": 0.882534921169281,
+          "inner_oof_f1": 0.11764705882352941,
+          "inner_oof_positives": 5,
+          "positive_training_films": 3
+        },
+        "Lugou Bridge": {
+          "threshold": 0.6861816644668579,
+          "inner_oof_f1": 0.0125,
+          "inner_oof_positives": 28,
+          "positive_training_films": 6
+        },
+        "Landmine warfare": {
+          "threshold": 0.9824936985969543,
+          "inner_oof_f1": 0.5321888412017167,
+          "inner_oof_positives": 107,
+          "positive_training_films": 7
+        },
+        "Guerrilla warfare": {
+          "threshold": 0.25149422883987427,
+          "inner_oof_f1": 0.017699115044247787,
+          "inner_oof_positives": 25,
+          "positive_training_films": 3
+        },
+        "National humiliation": {
+          "threshold": 0.011697804555296898,
+          "inner_oof_f1": 9.359352332818569e-05,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        }
+      },
+      "per_label": {
+        "Marco Polo Bridge Incident": {
+          "n": 1331,
+          "positives": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.004608294930875576,
+          "roc_auc": 0.837593984962406
+        },
+        "Battle of Pingxingguan": {
+          "n": 1331,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Taierzhuang": {
+          "n": 1331,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Nanjing Massacre": {
+          "n": 1331,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Second Sino-Japanese War": {
+          "n": 1331,
+          "positives": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.3333333333333333,
+          "roc_auc": 0.9984962406015037
+        },
+        "Eighth Route Army": {
+          "n": 1331,
+          "positives": 4,
+          "precision": 0.6666666666666666,
+          "recall": 1.0,
+          "f1": 0.8,
+          "average_precision": 0.6791666666666667,
+          "roc_auc": 0.9992464204973626
+        },
+        "New Fourth Army": {
+          "n": 1331,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National Revolutionary Army": {
+          "n": 1331,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Imperial Japanese Army": {
+          "n": 1331,
+          "positives": 9,
+          "precision": 0.15384615384615385,
+          "recall": 0.8888888888888888,
+          "f1": 0.2622950819672132,
+          "average_precision": 0.20947774720270051,
+          "roc_auc": 0.9826021180030257
+        },
+        "Chinese Communist Party": {
+          "n": 1331,
+          "positives": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.031591489244582285,
+          "roc_auc": 0.6271730914588058
+        },
+        "KMT": {
+          "n": 1331,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Yan'an Revolutionary Site": {
+          "n": 1331,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Lugou Bridge": {
+          "n": 1331,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Landmine warfare": {
+          "n": 1331,
+          "positives": 1,
+          "precision": 0.125,
+          "recall": 1.0,
+          "f1": 0.2222222222222222,
+          "average_precision": 0.14285714285714285,
+          "roc_auc": 0.9954887218045112
+        },
+        "Guerrilla warfare": {
+          "n": 1331,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National humiliation": {
+          "n": 1331,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        }
+      }
+    },
+    "金陵十三钗": {
+      "test_positive_labels": [
+        "Nanjing Massacre",
+        "Imperial Japanese Army"
+      ],
+      "test_zero_positive_labels_not_evaluable": [
+        "Marco Polo Bridge Incident",
+        "Battle of Pingxingguan",
+        "Battle of Taierzhuang",
+        "Second Sino-Japanese War",
+        "Eighth Route Army",
+        "New Fourth Army",
+        "National Revolutionary Army",
+        "Chinese Communist Party",
+        "KMT",
+        "Yan'an Revolutionary Site",
+        "Lugou Bridge",
+        "Landmine warfare",
+        "Guerrilla warfare",
+        "National humiliation"
+      ],
+      "train_zero_positive_labels_unlearnable": [],
+      "calibration": {
+        "Marco Polo Bridge Incident": {
+          "threshold": 0.12086393684148788,
+          "inner_oof_f1": 0.0025220680958385876,
+          "inner_oof_positives": 4,
+          "positive_training_films": 4
+        },
+        "Battle of Pingxingguan": {
+          "threshold": 0.09568943828344345,
+          "inner_oof_f1": 0.0033927056827820186,
+          "inner_oof_positives": 2,
+          "positive_training_films": 1
+        },
+        "Battle of Taierzhuang": {
+          "threshold": 0.011477319523692131,
+          "inner_oof_f1": 0.0033302895203308805,
+          "inner_oof_positives": 33,
+          "positive_training_films": 1
+        },
+        "Nanjing Massacre": {
+          "threshold": 0.8890848755836487,
+          "inner_oof_f1": 0.22950819672131148,
+          "inner_oof_positives": 21,
+          "positive_training_films": 4
+        },
+        "Second Sino-Japanese War": {
+          "threshold": 0.8153799176216125,
+          "inner_oof_f1": 0.16024653312788906,
+          "inner_oof_positives": 102,
+          "positive_training_films": 12
+        },
+        "Eighth Route Army": {
+          "threshold": 0.9916238188743591,
+          "inner_oof_f1": 0.6012269938650306,
+          "inner_oof_positives": 64,
+          "positive_training_films": 8
+        },
+        "New Fourth Army": {
+          "threshold": 0.009932277724146843,
+          "inner_oof_f1": 0.00011860285832888572,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        },
+        "National Revolutionary Army": {
+          "threshold": 0.7350640296936035,
+          "inner_oof_f1": 0.14084507042253522,
+          "inner_oof_positives": 42,
+          "positive_training_films": 7
+        },
+        "Imperial Japanese Army": {
+          "threshold": 0.897812008857727,
+          "inner_oof_f1": 0.41780415430267065,
+          "inner_oof_positives": 390,
+          "positive_training_films": 17
+        },
+        "Chinese Communist Party": {
+          "threshold": 0.8562663197517395,
+          "inner_oof_f1": 0.06956521739130435,
+          "inner_oof_positives": 33,
+          "positive_training_films": 10
+        },
+        "KMT": {
+          "threshold": 0.8279252052307129,
+          "inner_oof_f1": 0.16666666666666666,
+          "inner_oof_positives": 7,
+          "positive_training_films": 5
+        },
+        "Yan'an Revolutionary Site": {
+          "threshold": 0.7841798067092896,
+          "inner_oof_f1": 0.02531645569620253,
+          "inner_oof_positives": 5,
+          "positive_training_films": 3
+        },
+        "Lugou Bridge": {
+          "threshold": 0.5851710438728333,
+          "inner_oof_f1": 0.00909090909090909,
+          "inner_oof_positives": 28,
+          "positive_training_films": 6
+        },
+        "Landmine warfare": {
+          "threshold": 0.8720341920852661,
+          "inner_oof_f1": 0.4191343963553531,
+          "inner_oof_positives": 108,
+          "positive_training_films": 8
+        },
+        "Guerrilla warfare": {
+          "threshold": 0.24854415655136108,
+          "inner_oof_f1": 0.0031136481577581734,
+          "inner_oof_positives": 25,
+          "positive_training_films": 3
+        },
+        "National humiliation": {
+          "threshold": 0.10301735252141953,
+          "inner_oof_f1": 0.002325581395348837,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        }
+      },
+      "per_label": {
+        "Marco Polo Bridge Incident": {
+          "n": 1741,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Pingxingguan": {
+          "n": 1741,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Taierzhuang": {
+          "n": 1741,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Nanjing Massacre": {
+          "n": 1741,
+          "positives": 12,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.9026848151848154,
+          "roc_auc": 0.999277038750723
+        },
+        "Second Sino-Japanese War": {
+          "n": 1741,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Eighth Route Army": {
+          "n": 1741,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "New Fourth Army": {
+          "n": 1741,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National Revolutionary Army": {
+          "n": 1741,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Imperial Japanese Army": {
+          "n": 1741,
+          "positives": 9,
+          "precision": 0.12,
+          "recall": 1.0,
+          "f1": 0.21428571428571425,
+          "average_precision": 0.3087200126417282,
+          "roc_auc": 0.9902489094175007
+        },
+        "Chinese Communist Party": {
+          "n": 1741,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "KMT": {
+          "n": 1741,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Yan'an Revolutionary Site": {
+          "n": 1741,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Lugou Bridge": {
+          "n": 1741,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Landmine warfare": {
+          "n": 1741,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Guerrilla warfare": {
+          "n": 1741,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National humiliation": {
+          "n": 1741,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        }
+      }
+    },
+    "铁道英雄": {
+      "test_positive_labels": [
+        "Imperial Japanese Army",
+        "Chinese Communist Party"
+      ],
+      "test_zero_positive_labels_not_evaluable": [
+        "Marco Polo Bridge Incident",
+        "Battle of Pingxingguan",
+        "Battle of Taierzhuang",
+        "Nanjing Massacre",
+        "Second Sino-Japanese War",
+        "Eighth Route Army",
+        "New Fourth Army",
+        "National Revolutionary Army",
+        "KMT",
+        "Yan'an Revolutionary Site",
+        "Lugou Bridge",
+        "Landmine warfare",
+        "Guerrilla warfare",
+        "National humiliation"
+      ],
+      "train_zero_positive_labels_unlearnable": [],
+      "calibration": {
+        "Marco Polo Bridge Incident": {
+          "threshold": 0.04455452412366867,
+          "inner_oof_f1": 0.0013404825737265416,
+          "inner_oof_positives": 4,
+          "positive_training_films": 4
+        },
+        "Battle of Pingxingguan": {
+          "threshold": 0.13779696822166443,
+          "inner_oof_f1": 0.0049504950495049506,
+          "inner_oof_positives": 2,
+          "positive_training_films": 1
+        },
+        "Battle of Taierzhuang": {
+          "threshold": 0.0067362673580646515,
+          "inner_oof_f1": 0.00278916451844652,
+          "inner_oof_positives": 33,
+          "positive_training_films": 1
+        },
+        "Nanjing Massacre": {
+          "threshold": 0.9585226774215698,
+          "inner_oof_f1": 0.23931623931623933,
+          "inner_oof_positives": 33,
+          "positive_training_films": 5
+        },
+        "Second Sino-Japanese War": {
+          "threshold": 0.966812014579773,
+          "inner_oof_f1": 0.30597014925373134,
+          "inner_oof_positives": 102,
+          "positive_training_films": 12
+        },
+        "Eighth Route Army": {
+          "threshold": 0.9504057168960571,
+          "inner_oof_f1": 0.5114155251141552,
+          "inner_oof_positives": 64,
+          "positive_training_films": 8
+        },
+        "New Fourth Army": {
+          "threshold": 0.029452651739120483,
+          "inner_oof_f1": 0.0007137758743754461,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        },
+        "National Revolutionary Army": {
+          "threshold": 0.8300756812095642,
+          "inner_oof_f1": 0.1657142857142857,
+          "inner_oof_positives": 42,
+          "positive_training_films": 7
+        },
+        "Imperial Japanese Army": {
+          "threshold": 0.9637479782104492,
+          "inner_oof_f1": 0.42136498516320475,
+          "inner_oof_positives": 394,
+          "positive_training_films": 17
+        },
+        "Chinese Communist Party": {
+          "threshold": 0.9073326587677002,
+          "inner_oof_f1": 0.029411764705882353,
+          "inner_oof_positives": 30,
+          "positive_training_films": 9
+        },
+        "KMT": {
+          "threshold": 0.6530197262763977,
+          "inner_oof_f1": 0.13793103448275862,
+          "inner_oof_positives": 7,
+          "positive_training_films": 5
+        },
+        "Yan'an Revolutionary Site": {
+          "threshold": 0.941061794757843,
+          "inner_oof_f1": 0.26666666666666666,
+          "inner_oof_positives": 5,
+          "positive_training_films": 3
+        },
+        "Lugou Bridge": {
+          "threshold": 0.40625086426734924,
+          "inner_oof_f1": 0.005917159763313609,
+          "inner_oof_positives": 28,
+          "positive_training_films": 6
+        },
+        "Landmine warfare": {
+          "threshold": 0.9807927012443542,
+          "inner_oof_f1": 0.4605678233438486,
+          "inner_oof_positives": 108,
+          "positive_training_films": 8
+        },
+        "Guerrilla warfare": {
+          "threshold": 0.16495786607265472,
+          "inner_oof_f1": 0.0034238200048911714,
+          "inner_oof_positives": 25,
+          "positive_training_films": 3
+        },
+        "National humiliation": {
+          "threshold": 0.008623974397778511,
+          "inner_oof_f1": 0.00011623176614168653,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        }
+      },
+      "per_label": {
+        "Marco Polo Bridge Incident": {
+          "n": 916,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Pingxingguan": {
+          "n": 916,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Taierzhuang": {
+          "n": 916,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Nanjing Massacre": {
+          "n": 916,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Second Sino-Japanese War": {
+          "n": 916,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Eighth Route Army": {
+          "n": 916,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "New Fourth Army": {
+          "n": 916,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National Revolutionary Army": {
+          "n": 916,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Imperial Japanese Army": {
+          "n": 916,
+          "positives": 5,
+          "precision": 0.15384615384615385,
+          "recall": 0.8,
+          "f1": 0.25806451612903225,
+          "average_precision": 0.15702875546353806,
+          "roc_auc": 0.9824368825466522
+        },
+        "Chinese Communist Party": {
+          "n": 916,
+          "positives": 3,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.3888888888888889,
+          "roc_auc": 0.9963490324936108
+        },
+        "KMT": {
+          "n": 916,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Yan'an Revolutionary Site": {
+          "n": 916,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Lugou Bridge": {
+          "n": 916,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Landmine warfare": {
+          "n": 916,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Guerrilla warfare": {
+          "n": 916,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National humiliation": {
+          "n": 916,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        }
+      }
+    },
+    "铁道飞虎": {
+      "test_positive_labels": [
+        "Eighth Route Army",
+        "Imperial Japanese Army"
+      ],
+      "test_zero_positive_labels_not_evaluable": [
+        "Marco Polo Bridge Incident",
+        "Battle of Pingxingguan",
+        "Battle of Taierzhuang",
+        "Nanjing Massacre",
+        "Second Sino-Japanese War",
+        "New Fourth Army",
+        "National Revolutionary Army",
+        "Chinese Communist Party",
+        "KMT",
+        "Yan'an Revolutionary Site",
+        "Lugou Bridge",
+        "Landmine warfare",
+        "Guerrilla warfare",
+        "National humiliation"
+      ],
+      "train_zero_positive_labels_unlearnable": [],
+      "calibration": {
+        "Marco Polo Bridge Incident": {
+          "threshold": 0.10885187238454819,
+          "inner_oof_f1": 0.004439511653718091,
+          "inner_oof_positives": 4,
+          "positive_training_films": 4
+        },
+        "Battle of Pingxingguan": {
+          "threshold": 0.10699667781591415,
+          "inner_oof_f1": 0.0025806451612903226,
+          "inner_oof_positives": 2,
+          "positive_training_films": 1
+        },
+        "Battle of Taierzhuang": {
+          "threshold": 0.011754311621189117,
+          "inner_oof_f1": 0.002925894163345609,
+          "inner_oof_positives": 33,
+          "positive_training_films": 1
+        },
+        "Nanjing Massacre": {
+          "threshold": 0.6599120497703552,
+          "inner_oof_f1": 0.2235294117647059,
+          "inner_oof_positives": 33,
+          "positive_training_films": 5
+        },
+        "Second Sino-Japanese War": {
+          "threshold": 0.9526485800743103,
+          "inner_oof_f1": 0.2937853107344633,
+          "inner_oof_positives": 102,
+          "positive_training_films": 12
+        },
+        "Eighth Route Army": {
+          "threshold": 0.7367698550224304,
+          "inner_oof_f1": 0.4482758620689655,
+          "inner_oof_positives": 55,
+          "positive_training_films": 7
+        },
+        "New Fourth Army": {
+          "threshold": 0.009368758648633957,
+          "inner_oof_f1": 0.00011717834544176236,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        },
+        "National Revolutionary Army": {
+          "threshold": 0.8988630771636963,
+          "inner_oof_f1": 0.20725388601036268,
+          "inner_oof_positives": 42,
+          "positive_training_films": 7
+        },
+        "Imperial Japanese Army": {
+          "threshold": 0.9575404524803162,
+          "inner_oof_f1": 0.5211726384364821,
+          "inner_oof_positives": 364,
+          "positive_training_films": 17
+        },
+        "Chinese Communist Party": {
+          "threshold": 0.5769719481468201,
+          "inner_oof_f1": 0.046632124352331605,
+          "inner_oof_positives": 33,
+          "positive_training_films": 10
+        },
+        "KMT": {
+          "threshold": 0.928598940372467,
+          "inner_oof_f1": 0.4444444444444444,
+          "inner_oof_positives": 7,
+          "positive_training_films": 5
+        },
+        "Yan'an Revolutionary Site": {
+          "threshold": 0.9434317350387573,
+          "inner_oof_f1": 0.25,
+          "inner_oof_positives": 5,
+          "positive_training_films": 3
+        },
+        "Lugou Bridge": {
+          "threshold": 0.5346333384513855,
+          "inner_oof_f1": 0.007168458781362007,
+          "inner_oof_positives": 28,
+          "positive_training_films": 6
+        },
+        "Landmine warfare": {
+          "threshold": 0.5297757387161255,
+          "inner_oof_f1": 0.4533898305084746,
+          "inner_oof_positives": 108,
+          "positive_training_films": 8
+        },
+        "Guerrilla warfare": {
+          "threshold": 0.23816852271556854,
+          "inner_oof_f1": 0.005494505494505495,
+          "inner_oof_positives": 25,
+          "positive_training_films": 3
+        },
+        "National humiliation": {
+          "threshold": 0.05591713637113571,
+          "inner_oof_f1": 0.001863932898415657,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        }
+      },
+      "per_label": {
+        "Marco Polo Bridge Incident": {
+          "n": 1227,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Pingxingguan": {
+          "n": 1227,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Taierzhuang": {
+          "n": 1227,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Nanjing Massacre": {
+          "n": 1227,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Second Sino-Japanese War": {
+          "n": 1227,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Eighth Route Army": {
+          "n": 1227,
+          "positives": 9,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "average_precision": 1.0000000000000002,
+          "roc_auc": 1.0
+        },
+        "New Fourth Army": {
+          "n": 1227,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National Revolutionary Army": {
+          "n": 1227,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Imperial Japanese Army": {
+          "n": 1227,
+          "positives": 35,
+          "precision": 0.021551724137931036,
+          "recall": 0.14285714285714285,
+          "f1": 0.03745318352059925,
+          "average_precision": 0.06783132384563778,
+          "roc_auc": 0.8003355704697986
+        },
+        "Chinese Communist Party": {
+          "n": 1227,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "KMT": {
+          "n": 1227,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Yan'an Revolutionary Site": {
+          "n": 1227,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Lugou Bridge": {
+          "n": 1227,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Landmine warfare": {
+          "n": 1227,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Guerrilla warfare": {
+          "n": 1227,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National humiliation": {
+          "n": 1227,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        }
+      }
+    },
+    "风声": {
+      "test_positive_labels": [
+        "Landmine warfare"
+      ],
+      "test_zero_positive_labels_not_evaluable": [
+        "Marco Polo Bridge Incident",
+        "Battle of Pingxingguan",
+        "Battle of Taierzhuang",
+        "Nanjing Massacre",
+        "Second Sino-Japanese War",
+        "Eighth Route Army",
+        "New Fourth Army",
+        "National Revolutionary Army",
+        "Imperial Japanese Army",
+        "Chinese Communist Party",
+        "KMT",
+        "Yan'an Revolutionary Site",
+        "Lugou Bridge",
+        "Guerrilla warfare",
+        "National humiliation"
+      ],
+      "train_zero_positive_labels_unlearnable": [],
+      "calibration": {
+        "Marco Polo Bridge Incident": {
+          "threshold": 0.04326586425304413,
+          "inner_oof_f1": 0.0008143322475570033,
+          "inner_oof_positives": 4,
+          "positive_training_films": 4
+        },
+        "Battle of Pingxingguan": {
+          "threshold": 0.06876714527606964,
+          "inner_oof_f1": 0.00336417157275021,
+          "inner_oof_positives": 2,
+          "positive_training_films": 1
+        },
+        "Battle of Taierzhuang": {
+          "threshold": 0.006820733193308115,
+          "inner_oof_f1": 0.002732919254658385,
+          "inner_oof_positives": 33,
+          "positive_training_films": 1
+        },
+        "Nanjing Massacre": {
+          "threshold": 0.7926554679870605,
+          "inner_oof_f1": 0.3096774193548387,
+          "inner_oof_positives": 33,
+          "positive_training_films": 5
+        },
+        "Second Sino-Japanese War": {
+          "threshold": 0.9351905584335327,
+          "inner_oof_f1": 0.27089337175792505,
+          "inner_oof_positives": 102,
+          "positive_training_films": 12
+        },
+        "Eighth Route Army": {
+          "threshold": 0.9771772027015686,
+          "inner_oof_f1": 0.6091370558375635,
+          "inner_oof_positives": 64,
+          "positive_training_films": 8
+        },
+        "New Fourth Army": {
+          "threshold": 0.008963464759290218,
+          "inner_oof_f1": 9.484066767830046e-05,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        },
+        "National Revolutionary Army": {
+          "threshold": 0.5252290368080139,
+          "inner_oof_f1": 0.15113350125944586,
+          "inner_oof_positives": 42,
+          "positive_training_films": 7
+        },
+        "Imperial Japanese Army": {
+          "threshold": 0.9097195863723755,
+          "inner_oof_f1": 0.39111111111111113,
+          "inner_oof_positives": 399,
+          "positive_training_films": 18
+        },
+        "Chinese Communist Party": {
+          "threshold": 0.7182005643844604,
+          "inner_oof_f1": 0.04844290657439446,
+          "inner_oof_positives": 33,
+          "positive_training_films": 10
+        },
+        "KMT": {
+          "threshold": 0.5391192436218262,
+          "inner_oof_f1": 0.07453416149068323,
+          "inner_oof_positives": 7,
+          "positive_training_films": 5
+        },
+        "Yan'an Revolutionary Site": {
+          "threshold": 0.9525063037872314,
+          "inner_oof_f1": 0.2857142857142857,
+          "inner_oof_positives": 5,
+          "positive_training_films": 3
+        },
+        "Lugou Bridge": {
+          "threshold": 0.1908806413412094,
+          "inner_oof_f1": 0.0033463469046291134,
+          "inner_oof_positives": 28,
+          "positive_training_films": 6
+        },
+        "Landmine warfare": {
+          "threshold": 0.9799593687057495,
+          "inner_oof_f1": 0.4663677130044843,
+          "inner_oof_positives": 107,
+          "positive_training_films": 7
+        },
+        "Guerrilla warfare": {
+          "threshold": 0.1087377667427063,
+          "inner_oof_f1": 0.005946481665014866,
+          "inner_oof_positives": 25,
+          "positive_training_films": 3
+        },
+        "National humiliation": {
+          "threshold": 0.01263872254639864,
+          "inner_oof_f1": 0.0001627736632212908,
+          "inner_oof_positives": 1,
+          "positive_training_films": 1
+        }
+      },
+      "per_label": {
+        "Marco Polo Bridge Incident": {
+          "n": 427,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Pingxingguan": {
+          "n": 427,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Battle of Taierzhuang": {
+          "n": 427,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Nanjing Massacre": {
+          "n": 427,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Second Sino-Japanese War": {
+          "n": 427,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Eighth Route Army": {
+          "n": 427,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "New Fourth Army": {
+          "n": 427,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National Revolutionary Army": {
+          "n": 427,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Imperial Japanese Army": {
+          "n": 427,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Chinese Communist Party": {
+          "n": 427,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "KMT": {
+          "n": 427,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Yan'an Revolutionary Site": {
+          "n": 427,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Lugou Bridge": {
+          "n": 427,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "Landmine warfare": {
+          "n": 427,
+          "positives": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "average_precision": 0.2,
+          "roc_auc": 0.9906103286384976
+        },
+        "Guerrilla warfare": {
+          "n": 427,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        },
+        "National humiliation": {
+          "n": 427,
+          "positives": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "average_precision": null,
+          "roc_auc": null
+        }
+      }
+    }
+  },
+  "all_films": [
+    "一九四二",
+    "七七事变",
+    "东京审判",
+    "八佰",
+    "南京大屠杀",
+    "南京！南京！",
+    "厨子戏子痞子",
+    "地道战",
+    "地雷战",
+    "小兵张嘎",
+    "平原作战",
+    "战争子午线",
+    "白求恩大夫",
+    "血战台儿庄",
+    "野火春风斗古城",
+    "金陵十三钗",
+    "铁道英雄",
+    "铁道飞虎",
+    "风声"
+  ],
+  "inner_folds": 3,
+  "epochs": 3,
+  "batch": 24,
+  "microbatch_size": 24,
+  "gradient_accumulation_steps": 4,
+  "effective_batch_size": 96,
+  "learning_rate": 3e-05,
+  "pos_weight": true,
+  "threshold_method": "per-label F1 maximization on inner film-grouped OOF only",
+  "primary_metric": "average_precision",
+  "mean_average_precision": 0.12306023166392718,
+  "mean_roc_auc": 0.7642051689781655,
+  "micro_calibrated": {
+    "precision": 0.012085153853304826,
+    "recall": 0.5862457722660653,
+    "f1": 0.023682113173175454,
+    "evaluable_labels": [
+      "Marco Polo Bridge Incident",
+      "Battle of Pingxingguan",
+      "Battle of Taierzhuang",
+      "Nanjing Massacre",
+      "Second Sino-Japanese War",
+      "Eighth Route Army",
+      "New Fourth Army",
+      "National Revolutionary Army",
+      "Imperial Japanese Army",
+      "Chinese Communist Party",
+      "KMT",
+      "Yan'an Revolutionary Site",
+      "Lugou Bridge",
+      "Landmine warfare",
+      "Guerrilla warfare",
+      "National humiliation"
+    ]
+  },
+  "per_label": {
+    "Marco Polo Bridge Incident": {
+      "positives": 4,
+      "test_positive_folds": [
+        "七七事变",
+        "南京大屠杀",
+        "血战台儿庄",
+        "野火春风斗古城"
+      ],
+      "test_zero_positive_folds_not_evaluable": [
+        "一九四二",
+        "东京审判",
+        "八佰",
+        "南京！南京！",
+        "厨子戏子痞子",
+        "地道战",
+        "地雷战",
+        "小兵张嘎",
+        "平原作战",
+        "战争子午线",
+        "白求恩大夫",
+        "金陵十三钗",
+        "铁道英雄",
+        "铁道飞虎",
+        "风声"
+      ],
+      "average_precision": 0.0020088930952608794,
+      "roc_auc": 0.6297702928359059,
+      "calibrated_precision": 0.0012484394506866417,
+      "calibrated_recall": 0.5,
+      "calibrated_f1": 0.0024906600249066002,
+      "threshold_mean": 0.15280477702617645,
+      "threshold_min": 0.01864573545753956,
+      "threshold_max": 0.3838850259780884
+    },
+    "Battle of Pingxingguan": {
+      "positives": 2,
+      "test_positive_folds": [
+        "血战台儿庄"
+      ],
+      "test_zero_positive_folds_not_evaluable": [
+        "一九四二",
+        "七七事变",
+        "东京审判",
+        "八佰",
+        "南京大屠杀",
+        "南京！南京！",
+        "厨子戏子痞子",
+        "地道战",
+        "地雷战",
+        "小兵张嘎",
+        "平原作战",
+        "战争子午线",
+        "白求恩大夫",
+        "野火春风斗古城",
+        "金陵十三钗",
+        "铁道英雄",
+        "铁道飞虎",
+        "风声"
+      ],
+      "average_precision": 0.0029860755625925085,
+      "roc_auc": 0.9796171859091835,
+      "calibrated_precision": 0.0,
+      "calibrated_recall": 0.0,
+      "calibrated_f1": 0.0,
+      "threshold_mean": 0.11823900043964386,
+      "threshold_min": 0.026142096146941185,
+      "threshold_max": 0.5
+    },
+    "Battle of Taierzhuang": {
+      "positives": 33,
+      "test_positive_folds": [
+        "血战台儿庄"
+      ],
+      "test_zero_positive_folds_not_evaluable": [
+        "一九四二",
+        "七七事变",
+        "东京审判",
+        "八佰",
+        "南京大屠杀",
+        "南京！南京！",
+        "厨子戏子痞子",
+        "地道战",
+        "地雷战",
+        "小兵张嘎",
+        "平原作战",
+        "战争子午线",
+        "白求恩大夫",
+        "野火春风斗古城",
+        "金陵十三钗",
+        "铁道英雄",
+        "铁道飞虎",
+        "风声"
+      ],
+      "average_precision": 0.000852051082342127,
+      "roc_auc": 0.21015529623423929,
+      "calibrated_precision": 0.0,
+      "calibrated_recall": 0.0,
+      "calibrated_f1": 0.0,
+      "threshold_mean": 0.04894470423460007,
+      "threshold_min": 0.004857924301177263,
+      "threshold_max": 0.5
+    },
+    "Nanjing Massacre": {
+      "positives": 33,
+      "test_positive_folds": [
+        "东京审判",
+        "八佰",
+        "南京大屠杀",
+        "南京！南京！",
+        "金陵十三钗"
+      ],
+      "test_zero_positive_folds_not_evaluable": [
+        "一九四二",
+        "七七事变",
+        "厨子戏子痞子",
+        "地道战",
+        "地雷战",
+        "小兵张嘎",
+        "平原作战",
+        "战争子午线",
+        "白求恩大夫",
+        "血战台儿庄",
+        "野火春风斗古城",
+        "铁道英雄",
+        "铁道飞虎",
+        "风声"
+      ],
+      "average_precision": 0.11581773586689428,
+      "roc_auc": 0.9591939621298617,
+      "calibrated_precision": 0.08035714285714286,
+      "calibrated_recall": 0.2727272727272727,
+      "calibrated_f1": 0.12413793103448277,
+      "threshold_mean": 0.8512303829193115,
+      "threshold_min": 0.488511323928833,
+      "threshold_max": 0.9796565771102905
+    },
+    "Second Sino-Japanese War": {
+      "positives": 102,
+      "test_positive_folds": [
+        "一九四二",
+        "七七事变",
+        "东京审判",
+        "八佰",
+        "南京大屠杀",
+        "地道战",
+        "地雷战",
+        "平原作战",
+        "战争子午线",
+        "白求恩大夫",
+        "血战台儿庄",
+        "野火春风斗古城"
+      ],
+      "test_zero_positive_folds_not_evaluable": [
+        "南京！南京！",
+        "厨子戏子痞子",
+        "小兵张嘎",
+        "金陵十三钗",
+        "铁道英雄",
+        "铁道飞虎",
+        "风声"
+      ],
+      "average_precision": 0.14405180743318696,
+      "roc_auc": 0.778397296354649,
+      "calibrated_precision": 0.14705882352941177,
+      "calibrated_recall": 0.3431372549019608,
+      "calibrated_f1": 0.2058823529411765,
+      "threshold_mean": 0.930632472038269,
+      "threshold_min": 0.7727972269058228,
+      "threshold_max": 0.9793708324432373
+    },
+    "Eighth Route Army": {
+      "positives": 64,
+      "test_positive_folds": [
+        "地道战",
+        "地雷战",
+        "小兵张嘎",
+        "平原作战",
+        "战争子午线",
+        "白求恩大夫",
+        "野火春风斗古城",
+        "铁道飞虎"
+      ],
+      "test_zero_positive_folds_not_evaluable": [
+        "一九四二",
+        "七七事变",
+        "东京审判",
+        "八佰",
+        "南京大屠杀",
+        "南京！南京！",
+        "厨子戏子痞子",
+        "血战台儿庄",
+        "金陵十三钗",
+        "铁道英雄",
+        "风声"
+      ],
+      "average_precision": 0.5260780425299691,
+      "roc_auc": 0.9985142438655943,
+      "calibrated_precision": 0.5130434782608696,
+      "calibrated_recall": 0.921875,
+      "calibrated_f1": 0.659217877094972,
+      "threshold_mean": 0.9648047089576721,
+      "threshold_min": 0.7367698550224304,
+      "threshold_max": 0.9916238188743591
+    },
+    "New Fourth Army": {
+      "positives": 1,
+      "test_positive_folds": [
+        "血战台儿庄"
+      ],
+      "test_zero_positive_folds_not_evaluable": [
+        "一九四二",
+        "七七事变",
+        "东京审判",
+        "八佰",
+        "南京大屠杀",
+        "南京！南京！",
+        "厨子戏子痞子",
+        "地道战",
+        "地雷战",
+        "小兵张嘎",
+        "平原作战",
+        "战争子午线",
+        "白求恩大夫",
+        "野火春风斗古城",
+        "金陵十三钗",
+        "铁道英雄",
+        "铁道飞虎",
+        "风声"
+      ],
+      "average_precision": 4.226721332262564e-05,
+      "roc_auc": 0.03656947385567677,
+      "calibrated_precision": 0.0,
+      "calibrated_recall": 0.0,
+      "calibrated_f1": 0.0,
+      "threshold_mean": 0.03669329732656479,
+      "threshold_min": 0.0076762777753174305,
+      "threshold_max": 0.5
+    },
+    "National Revolutionary Army": {
+      "positives": 42,
+      "test_positive_folds": [
+        "一九四二",
+        "七七事变",
+        "东京审判",
+        "八佰",
+        "南京大屠杀",
+        "南京！南京！",
+        "血战台儿庄"
+      ],
+      "test_zero_positive_folds_not_evaluable": [
+        "厨子戏子痞子",
+        "地道战",
+        "地雷战",
+        "小兵张嘎",
+        "平原作战",
+        "战争子午线",
+        "白求恩大夫",
+        "野火春风斗古城",
+        "金陵十三钗",
+        "铁道英雄",
+        "铁道飞虎",
+        "风声"
+      ],
+      "average_precision": 0.12791629665423282,
+      "roc_auc": 0.9931781319503122,
+      "calibrated_precision": 0.12232415902140673,
+      "calibrated_recall": 0.9523809523809523,
+      "calibrated_f1": 0.2168021680216802,
+      "threshold_mean": 0.7645140886306763,
+      "threshold_min": 0.37224218249320984,
+      "threshold_max": 0.9744225740432739
+    },
+    "Imperial Japanese Army": {
+      "positives": 399,
+      "test_positive_folds": [
+        "一九四二",
+        "七七事变",
+        "东京审判",
+        "八佰",
+        "南京大屠杀",
+        "南京！南京！",
+        "厨子戏子痞子",
+        "地道战",
+        "地雷战",
+        "小兵张嘎",
+        "平原作战",
+        "战争子午线",
+        "白求恩大夫",
+        "血战台儿庄",
+        "野火春风斗古城",
+        "金陵十三钗",
+        "铁道英雄",
+        "铁道飞虎"
+      ],
+      "test_zero_positive_folds_not_evaluable": [
+        "风声"
+      ],
+      "average_precision": 0.3944270146559362,
+      "roc_auc": 0.9782866907312988,
+      "calibrated_precision": 0.26210045662100456,
+      "calibrated_recall": 0.7192982456140351,
+      "calibrated_f1": 0.38420348058902276,
+      "threshold_mean": 0.9393134117126465,
+      "threshold_min": 0.8467562198638916,
+      "threshold_max": 0.987331211566925
+    },
+    "Chinese Communist Party": {
+      "positives": 33,
+      "test_positive_folds": [
+        "七七事变",
+        "东京审判",
+        "厨子戏子痞子",
+        "地道战",
+        "地雷战",
+        "小兵张嘎",
+        "平原作战",
+        "白求恩大夫",
+        "野火春风斗古城",
+        "铁道英雄"
+      ],
+      "test_zero_positive_folds_not_evaluable": [
+        "一九四二",
+        "八佰",
+        "南京大屠杀",
+        "南京！南京！",
+        "战争子午线",
+        "血战台儿庄",
+        "金陵十三钗",
+        "铁道飞虎",
+        "风声"
+      ],
+      "average_precision": 0.012866985309568797,
+      "roc_auc": 0.6568290555201337,
+      "calibrated_precision": 0.020833333333333332,
+      "calibrated_recall": 0.18181818181818182,
+      "calibrated_f1": 0.037383177570093455,
+      "threshold_mean": 0.7252994775772095,
+      "threshold_min": 0.2689129710197449,
+      "threshold_max": 0.9304702281951904
+    },
+    "KMT": {
+      "positives": 7,
+      "test_positive_folds": [
+        "一九四二",
+        "东京审判",
+        "八佰",
+        "地道战",
+        "白求恩大夫"
+      ],
+      "test_zero_positive_folds_not_evaluable": [
+        "七七事变",
+        "南京大屠杀",
+        "南京！南京！",
+        "厨子戏子痞子",
+        "地雷战",
+        "小兵张嘎",
+        "平原作战",
+        "战争子午线",
+        "血战台儿庄",
+        "野火春风斗古城",
+        "金陵十三钗",
+        "铁道英雄",
+        "铁道飞虎",
+        "风声"
+      ],
+      "average_precision": 0.24458090928679163,
+      "roc_auc": 0.9993075356415478,
+      "calibrated_precision": 0.07352941176470588,
+      "calibrated_recall": 0.7142857142857143,
+      "calibrated_f1": 0.13333333333333333,
+      "threshold_mean": 0.769239068031311,
+      "threshold_min": 0.44972947239875793,
+      "threshold_max": 0.9494508504867554
+    },
+    "Yan'an Revolutionary Site": {
+      "positives": 5,
+      "test_positive_folds": [
+        "东京审判",
+        "平原作战",
+        "白求恩大夫"
+      ],
+      "test_zero_positive_folds_not_evaluable": [
+        "一九四二",
+        "七七事变",
+        "八佰",
+        "南京大屠杀",
+        "南京！南京！",
+        "厨子戏子痞子",
+        "地道战",
+        "地雷战",
+        "小兵张嘎",
+        "战争子午线",
+        "血战台儿庄",
+        "野火春风斗古城",
+        "金陵十三钗",
+        "铁道英雄",
+        "铁道飞虎",
+        "风声"
+      ],
+      "average_precision": 0.09077436582109479,
+      "roc_auc": 0.9984115347018573,
+      "calibrated_precision": 0.04424778761061947,
+      "calibrated_recall": 1.0,
+      "calibrated_f1": 0.0847457627118644,
+      "threshold_mean": 0.6900737285614014,
+      "threshold_min": 0.09666585177183151,
+      "threshold_max": 0.9540548920631409
+    },
+    "Lugou Bridge": {
+      "positives": 28,
+      "test_positive_folds": [
+        "七七事变",
+        "东京审判",
+        "南京大屠杀",
+        "南京！南京！",
+        "白求恩大夫",
+        "血战台儿庄"
+      ],
+      "test_zero_positive_folds_not_evaluable": [
+        "一九四二",
+        "八佰",
+        "厨子戏子痞子",
+        "地道战",
+        "地雷战",
+        "小兵张嘎",
+        "平原作战",
+        "战争子午线",
+        "野火春风斗古城",
+        "金陵十三钗",
+        "铁道英雄",
+        "铁道飞虎",
+        "风声"
+      ],
+      "average_precision": 0.03889969566530391,
+      "roc_auc": 0.618000995905721,
+      "calibrated_precision": 0.004730368968779565,
+      "calibrated_recall": 0.17857142857142858,
+      "calibrated_f1": 0.009216589861751152,
+      "threshold_mean": 0.4657253921031952,
+      "threshold_min": 0.04214891046285629,
+      "threshold_max": 0.7923654317855835
+    },
+    "Landmine warfare": {
+      "positives": 108,
+      "test_positive_folds": [
+        "八佰",
+        "厨子戏子痞子",
+        "地道战",
+        "地雷战",
+        "平原作战",
+        "战争子午线",
+        "野火春风斗古城",
+        "风声"
+      ],
+      "test_zero_positive_folds_not_evaluable": [
+        "一九四二",
+        "七七事变",
+        "东京审判",
+        "南京大屠杀",
+        "南京！南京！",
+        "小兵张嘎",
+        "白求恩大夫",
+        "血战台儿庄",
+        "金陵十三钗",
+        "铁道英雄",
+        "铁道飞虎"
+      ],
+      "average_precision": 0.2657267905239493,
+      "roc_auc": 0.9851554180054323,
+      "calibrated_precision": 0.29245283018867924,
+      "calibrated_recall": 0.5740740740740741,
+      "calibrated_f1": 0.3875,
+      "threshold_mean": 0.7996672987937927,
+      "threshold_min": 0.2556847929954529,
+      "threshold_max": 0.989535391330719
+    },
+    "Guerrilla warfare": {
+      "positives": 25,
+      "test_positive_folds": [
+        "地道战",
+        "平原作战",
+        "白求恩大夫"
+      ],
+      "test_zero_positive_folds_not_evaluable": [
+        "一九四二",
+        "七七事变",
+        "东京审判",
+        "八佰",
+        "南京大屠杀",
+        "南京！南京！",
+        "厨子戏子痞子",
+        "地雷战",
+        "小兵张嘎",
+        "战争子午线",
+        "血战台儿庄",
+        "野火春风斗古城",
+        "金陵十三钗",
+        "铁道英雄",
+        "铁道飞虎",
+        "风声"
+      ],
+      "average_precision": 0.0013128853751252596,
+      "roc_auc": 0.4713378444480678,
+      "calibrated_precision": 0.0006362942224484602,
+      "calibrated_recall": 0.2,
+      "calibrated_f1": 0.0012685525815045032,
+      "threshold_mean": 0.13159379363059998,
+      "threshold_min": 0.007455617189407349,
+      "threshold_max": 0.3600004315376282
+    },
+    "National humiliation": {
+      "positives": 1,
+      "test_positive_folds": [
+        "七七事变"
+      ],
+      "test_zero_positive_folds_not_evaluable": [
+        "一九四二",
+        "东京审判",
+        "八佰",
+        "南京大屠杀",
+        "南京！南京！",
+        "厨子戏子痞子",
+        "地道战",
+        "地雷战",
+        "小兵张嘎",
+        "平原作战",
+        "战争子午线",
+        "白求恩大夫",
+        "血战台儿庄",
+        "野火春风斗古城",
+        "金陵十三钗",
+        "铁道英雄",
+        "铁道飞虎",
+        "风声"
+      ],
+      "average_precision": 0.0006218905472636816,
+      "roc_auc": 0.9345577455611663,
+      "calibrated_precision": 0.0,
+      "calibrated_recall": 0.0,
+      "calibrated_f1": 0.0,
+      "threshold_mean": 0.06779254972934723,
+      "threshold_min": 0.007509415037930012,
+      "threshold_max": 0.5
+    }
+  },
+  "zero_positive_batch_diagnostics": {
+    "full_data_union_positive_cues": 848,
+    "microbatch_size": 24,
+    "effective_batch_size": 96,
+    "full_data_expected_zero_positive_microbatches_per_epoch": 440.79680041205256,
+    "full_data_microbatches_per_epoch": 1024,
+    "full_data_expected_zero_positive_effective_groups_per_epoch": 8.745909512505543,
+    "full_data_effective_groups_per_epoch": 256,
+    "observed_outer_fold_zero_positive_microbatches_per_epoch_mean": 418.12280701754383,
+    "observed_outer_fold_zero_positive_microbatches_per_epoch_min": 377,
+    "observed_outer_fold_zero_positive_microbatches_per_epoch_max": 474,
+    "observed_outer_fold_zero_positive_effective_groups_per_epoch_mean": 8.631578947368421,
+    "observed_outer_fold_zero_positive_effective_groups_per_epoch_min": 2,
+    "observed_outer_fold_zero_positive_effective_groups_per_epoch_max": 16
+  },
+  "note": "Labels/folds with no positive test cues have undefined AP and ROC-AUC and are listed separately. Their cue predictions remain part of pooled evaluation for labels evaluable elsewhere."
+}

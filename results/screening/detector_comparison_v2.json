@@ -1,0 +1,166 @@
+{
+  "reference": "lexicon >=2 cues at film level (rule-defined, not human gold)",
+  "note": "Vectorisers are fitted inside each fold; thresholds are chosen at the film level on training films using an inner film-grouped OOF; uncertainty is a film-clustered bootstrap. The reference is the rule itself, so these figures measure agreement with that standard and not accuracy.",
+  "n_films": 19,
+  "n_concepts": 10,
+  "n_pairs": 190,
+  "bootstrap": 2000,
+  "detectors": {
+    "lexicon_ge1": {
+      "tp": 65,
+      "fp": 13,
+      "fn": 0,
+      "precision": 0.8333,
+      "recall": 1.0,
+      "f1": 0.9091,
+      "f1_ci95": [
+        0.8444,
+        0.9577
+      ]
+    },
+    "lexicon_gated_recurrence": {
+      "tp": 57,
+      "fp": 0,
+      "fn": 8,
+      "precision": 1.0,
+      "recall": 0.8769,
+      "f1": 0.9344,
+      "f1_ci95": [
+        0.8905,
+        0.9764
+      ]
+    },
+    "model_any": {
+      "tp": 61,
+      "fp": 15,
+      "fn": 4,
+      "precision": 0.8026,
+      "recall": 0.9385,
+      "f1": 0.8652,
+      "f1_ci95": [
+        0.7907,
+        0.9222
+      ]
+    },
+    "model_ge2": {
+      "tp": 57,
+      "fp": 6,
+      "fn": 8,
+      "precision": 0.9048,
+      "recall": 0.8769,
+      "f1": 0.8906,
+      "f1_ci95": [
+        0.8182,
+        0.944
+      ]
+    },
+    "model_noisyor": {
+      "tp": 64,
+      "fp": 104,
+      "fn": 1,
+      "precision": 0.381,
+      "recall": 0.9846,
+      "f1": 0.5494,
+      "f1_ci95": [
+        0.4636,
+        0.6338
+      ]
+    },
+    "model_rate": {
+      "tp": 6,
+      "fp": 1,
+      "fn": 59,
+      "precision": 0.8571,
+      "recall": 0.0923,
+      "f1": 0.1667,
+      "f1_ci95": [
+        0.0678,
+        0.2683
+      ]
+    }
+  },
+  "learnability": {
+    "Battle of Taierzhuang": {
+      "folds_with_learnable_training": 0,
+      "folds_total": 19,
+      "positives": 33
+    },
+    "Nanjing Massacre": {
+      "folds_with_learnable_training": 19,
+      "folds_total": 19,
+      "positives": 33
+    },
+    "Second Sino-Japanese War": {
+      "folds_with_learnable_training": 19,
+      "folds_total": 19,
+      "positives": 102
+    },
+    "Eighth Route Army": {
+      "folds_with_learnable_training": 19,
+      "folds_total": 19,
+      "positives": 64
+    },
+    "National Revolutionary Army": {
+      "folds_with_learnable_training": 19,
+      "folds_total": 19,
+      "positives": 42
+    },
+    "Imperial Japanese Army": {
+      "folds_with_learnable_training": 19,
+      "folds_total": 19,
+      "positives": 399
+    },
+    "Chinese Communist Party": {
+      "folds_with_learnable_training": 19,
+      "folds_total": 19,
+      "positives": 33
+    },
+    "Lugou Bridge": {
+      "folds_with_learnable_training": 19,
+      "folds_total": 19,
+      "positives": 28
+    },
+    "Landmine warfare": {
+      "folds_with_learnable_training": 19,
+      "folds_total": 19,
+      "positives": 108
+    },
+    "Guerrilla warfare": {
+      "folds_with_learnable_training": 19,
+      "folds_total": 19,
+      "positives": 25
+    }
+  },
+  "macro_over_concepts": {
+    "lexicon_ge1": {
+      "precision": 0.846,
+      "recall": 1.0,
+      "f1": 0.9063
+    },
+    "lexicon_gated_recurrence": {
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8
+    },
+    "model_any": {
+      "precision": 0.7188,
+      "recall": 0.8557,
+      "f1": 0.7794
+    },
+    "model_ge2": {
+      "precision": 0.8267,
+      "recall": 0.779,
+      "f1": 0.7959
+    },
+    "model_noisyor": {
+      "precision": 0.3406,
+      "recall": 0.9,
+      "f1": 0.4671
+    },
+    "model_rate": {
+      "precision": 0.0857,
+      "recall": 0.0353,
+      "f1": 0.05
+    }
+  }
+}
